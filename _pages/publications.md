@@ -81,7 +81,7 @@ author_profile: true
 邀请报告：
 ------
 1.	**Peng Huang**, RRAM-based computation in memory for deep neural networks, 2023, CSTIC, Shanghai, 2023-06.
-2.	Huang Peng, Neuromorphic Computing Based on Binary OxRRAM Devices; 2019 IMEC-Stanford RRAM/MRAM Workshop, Leuven, 2019-10.
+2.	**Huang Peng**, Neuromorphic Computing Based on Binary OxRRAM Devices; 2019 IMEC-Stanford RRAM/MRAM Workshop, Leuven, 2019-10.
 
 专著：
 ------
