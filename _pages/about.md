@@ -17,26 +17,9 @@ I am always looking for motivated undergraduate and graduate students with backg
 
 Opening positions available: Ph.D., Post Doc, Master
 
-Title2
+News
 ======
-Paragraph 2.1
-
-Paragraph 2.2
-
-Title3
-======
-Paragraph 3.1
-
-Paragraph 3.2
-
-SubTitle4
-------
-Paragraph 4.1
-
-Paragraph 4.2
-
-SubTitle5
-------
-Paragraph 5.1
-
-Paragraph 5.2
+* Feb. 2024: Paper is accepted to TCAD. Congratulations to Lixia Han and all the collaborators and sponsors.
+* Feb. 2024: Paper is accepted to IEEE-EDL. Congratulations to Yiyang Chen and all the collaborators and sponsors.
+* Jan. 2024: Paper is accepted to Nature Communications. Congratulations to Yulin Feng and all the collaborators and sponsors.
+* Jan. 2024: Paper is accepted to Science Advances. Congratulations to Ruiqi Chen and all the collaborators and sponsors.
