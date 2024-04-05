@@ -11,8 +11,8 @@ author_profile: true
 
 2024:
 ------
-1.	[Ruiqi Chen, Haozhang Yang, Ruiyi Li, Guihai Yu, Yizhou Zhang, Junchen Dong, Dedong Han, Zheng Zhou, **Peng Huang**\*, Lifeng Liu, Xiaoyan Liu\*, Jinfeng Kang, “Thin-film transistor for temporal self-adaptive reservoir computing with closed-loop architecture,” Science Advances 10, eadl1299 (2024).](https://www.science.org/doi/full/10.1126/sciadv.adl1299)
-2.	Yulin Feng, Yizhou Zhang, Zheng Zhou, **Peng Huang**\*, Lifeng Liu\*, Xiaoyan Liu, Jinfeng Kang, “Memristor-based storage system with convolutional autoencoder-based image compression network,” Nature Communications 15, 1132(2024).
+1.	Ruiqi Chen, Haozhang Yang, Ruiyi Li, Guihai Yu, Yizhou Zhang, Junchen Dong, Dedong Han, Zheng Zhou, **Peng Huang**\*, Lifeng Liu, Xiaoyan Liu\*, Jinfeng Kang, [“Thin-film transistor for temporal self-adaptive reservoir computing with closed-loop architecture,”](https://www.science.org/doi/full/10.1126/sciadv.adl1299) Science Advances 10, eadl1299 (2024).
+2.	Yulin Feng, Yizhou Zhang, Zheng Zhou, **Peng Huang**\*, Lifeng Liu\*, Xiaoyan Liu, Jinfeng Kang, [“Memristor-based storage system with convolutional autoencoder-based image compression network,”](https://www.nature.com/articles/s41467-024-45312-0) Nature Communications 15, 1132(2024).
 
 2023:
 ------
