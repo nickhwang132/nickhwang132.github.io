@@ -16,11 +16,11 @@ author_profile: true
 
 2023:
 ------
-1.	Haozhang Yang, **Peng Huang**\*, Ruiyi Li, Nan Tang, Yizhou Zhang, Zheng Zhou, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang, Flash-based content addressable memory with L2 distance for memory-augmented neural network, Iscience, 108371, 26(12), 2023.
-2.	Ruiyi Li, Haozhang Yang, Yizhou Zhang, Nan Tang, Ruiqi Chen, Zheng Zhou, Lifeng Liu, Jinfeng Kang, **Peng Huang**, Adjustable short-term memory of SiOx: Ag-based memristor for reservoir computing, Nanotechnology, 505207, 34(50), 2023.
-3.	Lixia Han, **Peng Huang**, Zheng Zhou, Yiyang Chen, Xiaoyan Liu, Jinfeng Kang, A Convolution Neural Network Accelerator Design with Weight Mapping and Pipeline Optimization, 60th ACM/IEEE Design Automation Conference (DAC), 1-6, 2023.
-4.	Haozhang Yang, **Peng Huang**\*, Runze Han, Xiaoyan Liu, Jinfeng Kang, An ultra-high-density and energy-efficient content addressable memory design based on 3D-NAND flash, Science China Information Sciences, 66(4), 1-11, 2023.
-5.	Yulin Feng, **Peng Huang**\*, Yiyang Chen, Yizhou Zhang, Ruiyi Li, Zheng Zhou, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang, Fast and Accurate Weight Updating Strategy for Resistive Random-Access Memory (RRAM)-Based Neural Networks, IEEE Electron Device Letters, 44 (3), 416-419, 2023.
+1.	Haozhang Yang, **Peng Huang**\*, Ruiyi Li, Nan Tang, Yizhou Zhang, Zheng Zhou, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang, [Flash-based content addressable memory with L2 distance for memory-augmented neural network](https://www.cell.com/iscience/pdf/S2589-0042(23)02448-3.pdf), Iscience, 108371, 26(12), 2023.
+2.	Ruiyi Li, Haozhang Yang, Yizhou Zhang, Nan Tang, Ruiqi Chen, Zheng Zhou, Lifeng Liu, Jinfeng Kang, **Peng Huang**, [Adjustable short-term memory of SiOx: Ag-based memristor for reservoir computing](https://iopscience.iop.org/article/10.1088/1361-6528/acfb0a/meta), Nanotechnology, 505207, 34(50), 2023.
+3.	Lixia Han, **Peng Huang**, Zheng Zhou, Yiyang Chen, Xiaoyan Liu, Jinfeng Kang, [A Convolution Neural Network Accelerator Design with Weight Mapping and Pipeline Optimization](https://ieeexplore.ieee.org/abstract/document/10247977), 60th ACM/IEEE Design Automation Conference (DAC), 1-6, 2023.
+4.	Haozhang Yang, **Peng Huang**\*, Runze Han, Xiaoyan Liu, Jinfeng Kang, [An ultra-high-density and energy-efficient content addressable memory design based on 3D-NAND flash](https://link.springer.com/article/10.1007/s11432-021-3502-4), Science China Information Sciences, 66(4), 1-11, 2023.
+5.	Yulin Feng, **Peng Huang**\*, Yiyang Chen, Yizhou Zhang, Ruiyi Li, Zheng Zhou, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang, [Fast and Accurate Weight Updating Strategy for Resistive Random-Access Memory (RRAM)-Based Neural Networks](https://ieeexplore.ieee.org/abstract/document/10025741), IEEE Electron Device Letters, 44 (3), 416-419, 2023.
 
 2022:
 ------
