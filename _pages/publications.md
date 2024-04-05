@@ -24,11 +24,11 @@ author_profile: true
 
 2022:
 ------
-6.	Runze Han, **Peng Huang**\*, Yachen Xiang, Hong Hu, Sheng Lin, Peiyan Dong, Wensheng Shen, Yanzhi Wang, Xiaoyan Liu, Jinfeng Kang, Floating Gate Transistor‐Based Accurate Digital In‐Memory Computing for Deep Neural Networks, Advanced Intelligent Systems, 4(12), 2200127, 2022.
-7.	Lixia Han, **Peng Huang**\*, Yijiao Wang, Zheng Zhou, Yizhou Zhang, Xiaoyan Liu, Jinfeng Kang, Efficient Discrete Temporal Coding Spike-Driven In-Memory Computing Macro for Deep Neural Network Based on Nonvolatile Memory, IEEE Transactions on Circuits and Systems I: Regular Papers, 69(11), 2022.
-8.	Yizhou Zhang, **Peng Huang**\*, Linlin Cai, Yulin Feng, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang\*, Optimized Programming Scheme Enabling Symmetric Conductance Modulation in HfO2 Resistive Random-Access Memory (RRAM) for Neuromorphic Systems, IEEE Electron Device Letters, 43 (8), 1203-1206, 2022.
-9.	Haozhang Yang, **Peng Huang**\*, Zheng Zhou, Yizhou Zhang, Runze Han, Xiaoyan Liu, Jinfeng Kang\*, Mixed-Precision Partial Differential Equation Solver Design Based on Nonvolatile Memory, IEEE Transactions on Electron Devices, 69 (7), pp.3708-3715, 2022.
-10.	Xiangxiang Ding, **Peng Huang**\*, Yulin Feng, and Lifeng Liu\*, Understanding of the Volatile and Nonvolatile Switching in Ag-Based Memristors, IEEE Transactions on Electron Devices, 69 (3), pp.1034-1040, 2022.
+6.	Runze Han, **Peng Huang**\*, Yachen Xiang, Hong Hu, Sheng Lin, Peiyan Dong, Wensheng Shen, Yanzhi Wang, Xiaoyan Liu, Jinfeng Kang, [Floating Gate Transistor‐Based Accurate Digital In‐Memory Computing for Deep Neural Networks](https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200127), Advanced Intelligent Systems, 4(12), 2200127, 2022.
+7.	Lixia Han, **Peng Huang**\*, Yijiao Wang, Zheng Zhou, Yizhou Zhang, Xiaoyan Liu, Jinfeng Kang, [Efficient Discrete Temporal Coding Spike-Driven In-Memory Computing Macro for Deep Neural Network Based on Nonvolatile Memory](https://ieeexplore.ieee.org/abstract/document/9854184), IEEE Transactions on Circuits and Systems I: Regular Papers, 69(11), 2022.
+8.	Yizhou Zhang, **Peng Huang**\*, Linlin Cai, Yulin Feng, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang\*, [Optimized Programming Scheme Enabling Symmetric Conductance Modulation in HfO2 Resistive Random-Access Memory (RRAM) for Neuromorphic Systems](https://ieeexplore.ieee.org/abstract/document/9794778), IEEE Electron Device Letters, 43 (8), 1203-1206, 2022.
+9.	Haozhang Yang, **Peng Huang**\*, Zheng Zhou, Yizhou Zhang, Runze Han, Xiaoyan Liu, Jinfeng Kang\*, [Mixed-Precision Partial Differential Equation Solver Design Based on Nonvolatile Memory](https://ieeexplore.ieee.org/abstract/document/9786798), IEEE Transactions on Electron Devices, 69 (7), pp.3708-3715, 2022.
+10.	Xiangxiang Ding, **Peng Huang**\*, Yulin Feng, and Lifeng Liu\*, [Understanding of the Volatile and Nonvolatile Switching in Ag-Based Memristors](https://ieeexplore.ieee.org/abstract/document/9703097), IEEE Transactions on Electron Devices, 69 (3), pp.1034-1040, 2022.
 
 2021:
 ------
