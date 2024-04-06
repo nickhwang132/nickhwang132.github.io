@@ -117,5 +117,5 @@ author_profile: true
 25.	康晋锋，董镇，**黄鹏**，刘晓彦，刘力锋，基于阻变存储器三维交叉阵列的卷积、池化和激活电路，2019.8.23，中国，ZL201710402866.9
 26.	康晋锋，韩润泽，**黄鹏**，刘力锋，刘晓彦，基于忆阻器阵列的操作方法，2019.4.16，中国，ZL201610648336.8
 27.	康晋锋，江宇宁，**黄鹏**，周正，柳晨，韩润泽，刘晓彦，刘力锋，一种基于阻变器件和适应-激发神经元的神经形态系统及实现方法，2019.9.13，中国，ZL201710330263.2
-28.	Jinfeng Kang, **Peng Huang**, Runze Han, Xiaoyanliu, [CONVOLUTION OPERATION AJETIIOD BASED ON NOR FLASH ARRAY](https://patents.google.com/patent/US11309026B2/en), US 11,309,026 B2, 2022.4.19
+28.	Jinfeng Kang, **Peng Huang**, Runze Han, Xiaoyanliu, [CONVOLUTION OPERATION METHOD BASED ON NOR FLASH ARRAY](https://patents.google.com/patent/US11309026B2/en), US 11,309,026 B2, 2022.4.19
 29.	Jinfeng Kang, **Peng Huang**, Runze Han, Xiaoyanliu, DATA SEARCH SYSTEMS AND METHODS, US 11,145,365 B2, 2021.10.12
