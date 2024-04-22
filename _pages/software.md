@@ -9,7 +9,7 @@ redirect_from:
 
 ## [CoMN V1.0](https://github.com/booniebears/CoMN)
 
-CoMN platform was developed by **Prof. Peng Huang's research group(Peking University)**. The platfrom is proposed for designers to fast verify and further optimize the designments of non-volatile memory based neural network accelerators. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the **MIT License**. The Code of CoMN is available at : https://github.com/booniebears/CoMN.
+CoMN platform was developed by **Prof. Peng Huang's research group(Peking University)**. The platfrom is proposed for designers to fast verify and further optimize the designments of non-volatile memory based neural network accelerators. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the **MIT License**. The Code of CoMN is available at : [https://github.com/booniebears/CoMN](https://github.com/booniebears/CoMN).
 
 ### Get Started
 
@@ -39,7 +39,7 @@ You can change configurations of CoMN in directory "Parameters", where all the j
 The generations of the python files are located in "generate_data/tcad".
 
 ### GUI for CoMN
-We have also developed a Web GUI for CoMN. You can access the platform via http://101.42.97.22:8081/index.html. You need to register first before using platform.
+We have also developed a Web GUI for CoMN. You can access the platform via [http://101.42.97.22:8081/index.html](http://101.42.97.22:8081/index.html). You need to register first before using platform.
 
 ### Contact Us
 Lixia Han: lixiahan@pku.edu.cn
