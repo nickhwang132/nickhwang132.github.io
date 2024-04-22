@@ -7,51 +7,47 @@ redirect_from:
   - /markdown.html
 ---
 
-## Titles
+## [CoMN V1.0](https://github.com/booniebears/CoMN)
 
-* Index1
-* Index2
-  * Index2.1
-  * Index2.2
-* Index3
+CoMN platform was developed by **Prof. Peng Huang's research group(Peking University)**. The platfrom is proposed for designers to fast verify and further optimize the designments of non-volatile memory based neural network accelerators. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the **MIT License**. The Code of CoMN is available at : https://github.com/booniebears/CoMN.
 
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
- * [MathJax Documentation](https://docs.mathjax.org/en/latest/)
+### Get Started
 
-## Header two
+CoMN is composed of three main parts: **algorithm adapter**, which aims at improving inference accuracy of neural networks by considering the nonidealities of NVM devices; **mapper**, which is developed to automatically map CNN models to CIM chips through optimizing pipeline, weight transformation, partition, and placement; and **hardware optimizer**, which is developed to search hardware microarchitecture and circuit design space in the early design stage.
 
-### Header three
+Before running the algorithm adapter/mapper/hardware optimizer, first compile the C++ files to executable file:
+```bash
+cd src/refactor
+chmod +x run.sh
+./run.sh
+# Go back to CoMN base directory Before executing the following demand
+cd cacti-master
+make
+# Go back to CoMN base directory Before executing the following demand
+cd ORION3_0
+make
+```
 
-#### Header four
+Then, use the following instructions to run algorithm adapter/mapper/hardware optimizer:
+```bash
+cd src
+python Accuracy_optimizer.py # adapter
+python Mapping_optimizer.py # mapper
+python Performance_optimizer.py # hardware optimizer
+```
+You can change configurations of CoMN in directory "Parameters", where all the json files except epoch.json can be reconfigured, and all the txt files are just intermediate products.
+The generations of the python files are located in "generate_data/tcad".
 
-##### Header five
+### GUI for CoMN
+We have also developed a Web GUI for CoMN. You can access the platform via http://101.42.97.22:8081/index.html. You need to register first before using platform.
 
-###### Header six
+### Contact Us
+Lixia Han: lixiahan@pku.edu.cn
 
-### Table
+Peng Huang: phwang@pku.edu.cn
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+Siyuan Chen (Now maintaining the code): 3197571813@mail.nwpu.edu.cn
 
-## Ordered List (Nested)
+If you use the tool or adapt the tool in your work or publication, you are required to cite the following reference:
 
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
+**Lixia, Han & Pan, Renjie & Zhou, Zheng & Lu, Hairuo & Chen, Yiyang & Haozhang, Yang & Huang, Peng & Sun, Guangyu & Kang, Jinfeng. (2024).** **CoMN: Algorithm-Hardware Co-Design Platform for Non-Volatile Memory Based Convolutional Neural Network Accelerators. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. PP. 1-1. 10.1109/TCAD.2024.3358220.** 
