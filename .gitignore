@@ -1,6 +1,5 @@
-# Ignore the contents of the _site directory and other cache directories
+# Ignore the contents of the _site directory
 _site/
-.sass-cache/
 
 # Ignore the directory for local files during development
 local/
