@@ -9,10 +9,16 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+2025:
+------
+1.	Lixia Han, **Peng Huang**\*, Yijiao Wang\*, Zheng Zhou, Haozhang Yang, Yiyang Chen, Xiaoyan Liu, Jinfeng Kang, [“Mitigating methodology of hardware non-ideal characteristics for non-volatile memory based neural networks,”](https://link.springer.com/article/10.1007/s11432-023-4021-y) Science China Information Sciences 68 (2), 1-15, 2025.
+
 2024:
 ------
-1.	Ruiqi Chen, Haozhang Yang, Ruiyi Li, Guihai Yu, Yizhou Zhang, Junchen Dong, Dedong Han, Zheng Zhou, **Peng Huang**\*, Lifeng Liu, Xiaoyan Liu\*, Jinfeng Kang, [“Thin-film transistor for temporal self-adaptive reservoir computing with closed-loop architecture,”](https://www.science.org/doi/full/10.1126/sciadv.adl1299) Science Advances 10, eadl1299 (2024).
-2.	Yulin Feng, Yizhou Zhang, Zheng Zhou, **Peng Huang**\*, Lifeng Liu\*, Xiaoyan Liu, Jinfeng Kang, [“Memristor-based storage system with convolutional autoencoder-based image compression network,”](https://www.nature.com/articles/s41467-024-45312-0) Nature Communications 15, 1132(2024).
+1.	Lixia Han, Peng Huang, Zheng Zhou, Yiyang Chen, Haozhang Yang, Xiaoyan Liu, Jinfeng Kang, [“Pipeline Design of Nonvolatile-based Computing in Memory for Convolutional Neural Networks Inference Accelerators,”](https://ieeexplore.ieee.org/abstract/document/10546661) Design, Automation & Test in Europe Conference & Exhibition (DATE), 1-2, 2024.
+
+2.	Ruiqi Chen, Haozhang Yang, Ruiyi Li, Guihai Yu, Yizhou Zhang, Junchen Dong, Dedong Han, Zheng Zhou, **Peng Huang**\*, Lifeng Liu, Xiaoyan Liu\*, Jinfeng Kang, [“Thin-film transistor for temporal self-adaptive reservoir computing with closed-loop architecture,”](https://www.science.org/doi/full/10.1126/sciadv.adl1299) Science Advances 10, eadl1299 (2024).
+3.	Yulin Feng, Yizhou Zhang, Zheng Zhou, **Peng Huang**\*, Lifeng Liu\*, Xiaoyan Liu, Jinfeng Kang, [“Memristor-based storage system with convolutional autoencoder-based image compression network,”](https://www.nature.com/articles/s41467-024-45312-0) Nature Communications 15, 1132(2024).
 
 2023:
 ------
