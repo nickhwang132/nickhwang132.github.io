@@ -21,6 +21,7 @@ News
 ======
 * Feb. 2025: Paper is accepted to Science China Information Sciences. Congratulations to Lixia Han and all the collaborators and sponsors.
 * Dec. 2024: Paper is accepted to IEEE-TCAS-I. Congratulations to Yang Feng and all the collaborators and sponsors.
+* Sep. 2024: Paper is accepted to IEDM. Congratulations to Yiyang Chen and all the collaborators and sponsors.
 * Sep. 2024: Paper is accepted to IEEE-TCAS-I. Congratulations to Ao Shi and all the collaborators and sponsors.
 * Jul. 2024: Congratulations to Lixia Han, Guihai Yu, and Ruiyi Li on successfully graduating with their doctoral degrees from our research group! Best wishes for your future endeavors.
 * May. 2024: Paper is accepted to IEEE-ISCAS. Congratulations to Ao Shi and all the collaborators and sponsors.
