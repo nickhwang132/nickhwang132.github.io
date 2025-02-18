@@ -22,11 +22,11 @@ News
 <center class="half" style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
     <div style="text-align: center;">
         <img src="../images/new1.jpg" width="300"/>
-        <p style="margin: 0px 5; font-size: 12px; /color: #666;">Celebrating our 2024 research group graduation!</p>
+        <p style="margin: 0px 0; font-size: 12px; /color: #666;">Celebrating our 2024 research group graduation!</p>
     </div>
     <div style="text-align: center;">
-        <img src="../images/new2.jpg" width="263"/>
-        <p style="margin: 0px 5; font-size: 12px; color: #666;">Yiyang Chen presenting at 2024 IEDM.</p>
+        <img src="../images/new2.jpg" width="265"/>
+        <p style="margin: 0px 0; font-size: 12px; color: #666;">Yiyang Chen presenting at 2024 IEDM.</p>
     </div>
 </center>
 
