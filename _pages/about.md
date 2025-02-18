@@ -19,8 +19,8 @@ Opening positions available: Ph.D., Post Doc, Master
 
 News
 ======
-<center class="half">
-    <img src="../images/new1.jpg" width="300"/><img src="../images/new2.jpg" width="263"/>
+<center class="half" style="display: flex; gap: 20px; justify-content: center;">
+    <img src="../images/new1.jpg" width="300"/><img src="../images/new2.jpg" width="264"/>
 </center>
 * Feb. 2025: Paper is accepted to Science China Information Sciences. Congratulations to Lixia Han and all the collaborators and sponsors.
 * Dec. 2024: Paper is accepted to IEEE-TCAS-I. Congratulations to Yang Feng and all the collaborators and sponsors.
