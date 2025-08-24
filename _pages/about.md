@@ -42,7 +42,7 @@ News
 .carousel-slide {
     min-width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px 10px 5px 10px; /* 减少底部padding */
     background: #f9f9f9;
 }
 
@@ -54,7 +54,7 @@ News
 }
 
 .carousel-slide p {
-    margin: 10px 0;
+    margin: 5px 0 0 0; /* 减少上下margin，特别是底部margin */
     font-size: 16px;
     font-weight: bold;
     color: #666;
