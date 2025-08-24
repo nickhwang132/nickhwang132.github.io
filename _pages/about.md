@@ -28,7 +28,7 @@ News
 .carousel-container {
     position: relative;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -55,7 +55,8 @@ News
 
 .carousel-slide p {
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     color: #666;
 }
 
@@ -86,7 +87,7 @@ News
 
 .carousel-dots {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .carousel-dot {
@@ -108,20 +109,23 @@ News
 
 <div class="carousel-container">
     <div class="carousel-slides" id="carouselSlides">
-        <div class="carousel-slide">
-            <img src="../images/news1.jpg" alt="2024 Graduation celebration"/>
-            <p>Celebrating our 2024 research group graduation!</p>
+         <div class="carousel-slide">
+            <img src="../images/news4.jpg" alt="2025 Graduation celebration"/>
+            <p>Celebrating our 2025 research group graduation!</p>
         </div>
+        <div class="carousel-slide">
+            <img src="../images/news3.jpg" alt="VLSI presentation"/>
+            <p>Nan Tang presenting at 2025 VLSI.</p>
         <div class="carousel-slide">
             <img src="../images/news2.jpg" alt="IEDM presentation"/>
             <p>Yiyang Chen presenting at 2024 IEDM.</p>
         </div>
-        <!-- Add more slides here as needed -->
         <div class="carousel-slide">
-            <img src="../images/news3.jpg" alt="VLSI presentation"/>
-            <p>Latest research activities in our lab.</p>
+            <img src="../images/news1.jpg" alt="2024 Graduation celebration"/>
+            <p>Celebrating our 2024 research group graduation!</p>
         </div>
     </div>
+</div>
     
     <button class="carousel-nav carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
     <button class="carousel-nav carousel-next" onclick="moveSlide(1)">&#10095;</button>
@@ -166,19 +170,19 @@ setInterval(() => {
 }, 5000);
 </script>
 
-* Jul. 2025: Congratulations to Haozhang Yang and Shiyue Song on their successful doctoral degree graduation from our research group! Wishing them great success in their future careers.
-* Jun. 2025: Paper is accepted to VLSI Technology and Circuits. Congratulations to Nan Tang and all the collaborators and sponsors.
-* Apr. 2025: Paper is accepted to IEEE Transactions on Computers. Congratulations to Lixia Han and all the collaborators and sponsors.
-* Mar. 2025: Paper is accepted to Japanese Journal of Applied Physics. Congratulations to Zhuohua Tang and all the collaborators and sponsors.
-* Mar. 2025: Paper is accepted to IEEE-EDTM. Congratulations to Ruiqi Chen and all the collaborators and sponsors.
-* Feb. 2025: Paper is accepted to Science China Information Sciences. Congratulations to Lixia Han and all the collaborators and sponsors.
-* Dec. 2024: Paper is accepted to IEEE-TCAS-I. Congratulations to Yang Feng and all the collaborators and sponsors.
-* Sep. 2024: Paper is accepted to IEDM. Congratulations to Yiyang Chen and all the collaborators and sponsors.
-* Sep. 2024: Paper is accepted to IEEE-TCAS-I. Congratulations to Ao Shi and all the collaborators and sponsors.
-* Jul. 2024: Congratulations to Lixia Han, Guihai Yu, and Ruiyi Li on successfully graduating with their doctoral degrees from our research group! Best wishes for your future endeavors.
-* May. 2024: Paper is accepted to IEEE-ISCAS. Congratulations to Ao Shi and all the collaborators and sponsors.
-* Mar. 2024: Paper is accepted to DATE. Congratulations to Lixia Han and all the collaborators and sponsors.
-* Feb. 2024: Paper is accepted to Science Advances. Congratulations to Ruiqi Chen and all the collaborators and sponsors.
-* Feb. 2024: Paper is accepted to Nature Communications. Congratulations to Yulin Feng and all the collaborators and sponsors.
-* Jan. 2024: Paper is accepted to TCAD. Congratulations to Lixia Han and all the collaborators and sponsors.
-* Jan. 2024: Paper is accepted to IEEE-EDL. Congratulations to Yiyang Chen and all the collaborators and sponsors.
+* Jul/2025: Congratulations to **Haozhang Yang** and **Shiyue Song** on their successful doctoral degree graduation from our research group! Wishing them great success in their future careers.
+* Jun/2025: Paper is accepted to **VLSI Technology and Circuits**. Congratulations to **Nan Tang** and all the collaborators and sponsors.
+* Apr/2025: Paper is accepted to **IEEE Transactions on Computers**. Congratulations to **Lixia Han** and all the collaborators and sponsors.
+* Mar/2025: Paper is accepted to **Japanese Journal of Applied Physics**. Congratulations to **Zhuohua Tang** and all the collaborators and sponsors.
+* Mar/2025: Paper is accepted to **IEEE-EDTM**. Congratulations to **Ruiqi Chen** and all the collaborators and sponsors.
+* Feb/2025: Paper is accepted to **Science China Information Sciences**. Congratulations to **Lixia Han** and all the collaborators and sponsors.
+* Dec/2024: Paper is accepted to **IEEE-TCAS-I**. Congratulations to **Yang Feng** and all the collaborators and sponsors.
+* Sep/2024: Paper is accepted to **IEDM**. Congratulations to **Yiyang Chen** and all the collaborators and sponsors.
+* Sep/2024: Paper is accepted to **IEEE-TCAS-I**. Congratulations to **Ao Shi** and all the collaborators and sponsors.
+* Jul/2024: Congratulations to **Lixia Han**, **Guihai Yu**, and **Ruiyi Li** on successfully graduating with their doctoral degrees from our research group! Best wishes for your future endeavors.
+* May/2024: Paper is accepted to **IEEE-ISCAS**. Congratulations to **Ao Shi** and all the collaborators and sponsors.
+* Mar/2024: Paper is accepted to **DATE**. Congratulations to **Lixia Han** and all the collaborators and sponsors.
+* Feb/2024: Paper is accepted to **Science Advances**. Congratulations to **Ruiqi Chen** and all the collaborators and sponsors.
+* Feb/2024: Paper is accepted to **Nature Communications**. Congratulations to **Yulin Feng** and all the collaborators and sponsors.
+* Jan/2024: Paper is accepted to **TCAD**. Congratulations to **Lixia Han** and all the collaborators and sponsors.
+* Jan/2024: Paper is accepted to **IEEE-EDL**. Congratulations to **Yiyang Chen** and all the collaborators and sponsors.
