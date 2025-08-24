@@ -7,15 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor in the School of Integrated Circuits at Peking University. My research interests include emerging computing based on emerging devices, including the design and fabrication of emerging devices, the circuit and architecture design of RRAM-based CIM chips, and neuromorphic computing. I have authored over 100 scientific publications in leading international journals and conferences, such as Nature Electronics, Nature Communications, Science Advances, Advanced Materials, IEEE-IEDM, DAC, IEEE-TCAS, and IEEE-EDL. I am a recipient of the Excellent Young Scholars (NSFC 2020), the Second Prize of Natural Science Award (Ministry of Education 2019), and PhD Student Fellowship (IEEE EDS 2014).
+<p style="text-indent: 2em; text-align: justify;">
+I am an <strong>assistant professor</strong> in the <strong>School of Integrated Circuits at Peking University</strong>. My research interests include <strong>emerging computing based on emerging devices</strong>, including the design and fabrication of emerging devices, the circuit and architecture design of <strong>RRAM-based CIM chips</strong>, and <strong>neuromorphic computing</strong>. I have authored <strong>over 100 scientific publications</strong> in leading international journals and conferences, such as <strong>Nature Electronics</strong>, <strong>Nature Communications</strong>, <strong>Science Advances</strong>, <strong>Advanced Materials</strong>, <strong>IEEE-IEDM</strong>, <strong>DAC</strong>, <strong>IEEE-TCAS</strong>, and <strong>IEEE-EDL</strong>. I am a recipient of the <strong>Excellent Young Scholars (NSFC 2020)</strong>, the <strong>Second Prize of Natural Science Award (Ministry of Education 2019)</strong>, and <strong>PhD Student Fellowship (IEEE EDS 2014)</strong>.
+</p>
 
-I am always looking for motivated undergraduate and graduate students with backgrounds in microelectronics, integrated circuits, computer science, electrical engineering, physics, or related areas working on research fields of:
-1. RRAM-based CIM chips and systems for neural networks.
-2. Emerging devices and architectures for data sensing, computing, and storage.
-3. Memristor-based neuromorphic computing.
-4. Auto design tools for emerging computing systems.
+<p style="text-indent: 2em; text-align: justify;">
+I am always looking for <strong>motivated undergraduate and graduate students</strong> with backgrounds in <strong>microelectronics</strong>, <strong>integrated circuits</strong>, <strong>computer science</strong>, <strong>electrical engineering</strong>, <strong>physics</strong>, or related areas working on research fields of:
+</p>
 
-Opening positions available: Ph.D., Post Doc, Master
+1. **RRAM-based CIM chips and systems** for neural networks.
+2. **Emerging devices and architectures** for data sensing, computing, and storage.
+3. **Memristor-based neuromorphic computing**.
+4. **Auto design tools** for emerging computing systems.
+
+**Opening positions available:** Ph.D., Post Doc, Master
 
 News
 ======
