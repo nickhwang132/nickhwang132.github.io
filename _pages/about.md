@@ -116,6 +116,7 @@ News
         <div class="carousel-slide">
             <img src="../images/news3.jpg" alt="VLSI presentation"/>
             <p>Nan Tang presenting at 2025 VLSI.</p>
+        </div>
         <div class="carousel-slide">
             <img src="../images/news2.jpg" alt="IEDM presentation"/>
             <p>Yiyang Chen presenting at 2024 IEDM.</p>
