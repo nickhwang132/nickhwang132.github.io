@@ -126,7 +126,6 @@ News
             <p>Celebrating our 2024 research group graduation!</p>
         </div>
     </div>
-</div>
     
     <button class="carousel-nav carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
     <button class="carousel-nav carousel-next" onclick="moveSlide(1)">&#10095;</button>
@@ -135,6 +134,7 @@ News
         <span class="carousel-dot active" onclick="currentSlide(1)"></span>
         <span class="carousel-dot" onclick="currentSlide(2)"></span>
         <span class="carousel-dot" onclick="currentSlide(3)"></span>
+        <span class="carousel-dot" onclick="currentSlide(4)"></span>
     </div>
 </div>
 
