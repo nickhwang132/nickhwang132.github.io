@@ -11,7 +11,11 @@ author_profile: true
 
 2025:
 ------
-1.	Lixia Han, **Peng Huang**\*, Yijiao Wang\*, Zheng Zhou, Haozhang Yang, Yiyang Chen, Xiaoyan Liu, Jinfeng Kang, [Mitigating methodology of hardware non-ideal characteristics for non-volatile memory based neural networks](https://link.springer.com/article/10.1007/s11432-023-4021-y), Science China Information Sciences 68 (2), 1-15, 2025.
+1.	Nan Tang, Guihai Yu, Ao Shi, Kexun Li, Jiaqi Li, Haozhang Yang, Yi Xiao, Lianliang Wu, Zheng Zhou\*, Lifeng Liu, Xiaoyan Liu, Jinfeng Kang, **Peng Huang**\*, [First Demonstration of 1T FDSOI-Based >1000fps Image Sensor with In-pixel Computing](https://ieeexplore.ieee.org/abstract/document/11075105), 2025 Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits), pp. 1-3, IEEE, 2025-06-08.
+2.	Lixia Han, Yiyang Chen, Siyuan Chen, Haozhang Yang, Ao Shi, Guihai Yu, Jiaqi Li, Zheng Zhou, Yijiao Wang\*, Yanzhi Wang, Xiaoyan Liu, Jinfeng Kang, **Peng Huang**\*, [CIMUS: 3D-stacked Computing-in-Memory Under Image Sensor Architecture for Efficient Machine Vision](https://ieeexplore.ieee.org/abstract/document/10949700), IEEE Transactions on Computers, IEEE, 2025-04-08.
+3.	Zhuohua Tang, Wanwang Yang, Xujin Song, Haotong Zhu, Nan Tang, Haozhang Yang, Yulin Feng\*, Zheng Zhou, Jinfeng Kang, **Peng Huang**\*, [50-fold endurance improvement in HfO2-based ferroelectric capacitor through hybrid recovery schemes](https://iopscience.iop.org/article/10.35848/1347-4065/adbbf8/meta), Japanese Journal of Applied Physics, 64(3), 03SP64, 2025-03-24.
+4.	Ruiqi Chen, Yulin Feng, Nan Tang, Yiyang Chen, Hao Ai, Haozhang Yang, Zheng Zhou, Lifeng Liu\*, Xiaoyan Liu, Jinfeng Kang, **Peng Huang**\*, [Ag: SiOx-Based Volatile Memristors for Dendritic Computations](https://ieeexplore.ieee.org/abstract/document/11040460), 2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), pp. 1-3, IEEE, 2025-03-09.
+5.	Lixia Han, **Peng Huang**\*, Yijiao Wang\*, Zheng Zhou, Haozhang Yang, Yiyang Chen, Xiaoyan Liu, Jinfeng Kang, [Mitigating methodology of hardware non-ideal characteristics for non-volatile memory based neural networks](https://link.springer.com/article/10.1007/s11432-023-4021-y), Science China Information Sciences 68 (2), 1-15, 2025.
 
 2024:
 ------ 
