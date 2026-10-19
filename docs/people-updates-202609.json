@@ -1,0 +1,284 @@
+{
+  "source_id": "group-introduction-202609",
+  "source_sha256": "96bfada267c7e2ba5b1f3a6a7b0115b1e69e02f29fc1bc6723f9cac8eed97279",
+  "page": 3,
+  "updates": [
+    {
+      "name": "Xu Yan",
+      "before": {
+        "degree": "Undergraduate Students"
+      },
+      "after": {
+        "degree": "Graduate Students"
+      },
+      "reason": "Page 3 lists this previously known member in graduate year 1; masters or doctoral degree not specified."
+    },
+    {
+      "name": "Yuxiang Jia",
+      "before": {
+        "degree": "Undergraduate Students"
+      },
+      "after": {
+        "degree": "Graduate Students"
+      },
+      "reason": "Page 3 lists this previously known member in graduate year 1; masters or doctoral degree not specified."
+    }
+  ],
+  "additions": [
+    {
+      "name": "靳凌熙",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "韩卓廷",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "刘耜源",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "王梓淇",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "吕昊润",
+      "degree": "Graduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "王麒瑜",
+      "degree": "Graduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "韩嘉烁",
+      "degree": "Graduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "秦雄昊",
+      "degree": "Graduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    },
+    {
+      "name": "伊亚玎",
+      "degree": "Graduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": null
+    }
+  ],
+  "authorization": "User explicitly confirmed adding all 9 new members and presenting the joint group, 2026-10-17.",
+  "graduations": [
+    {
+      "name": "Yiyang Chen",
+      "before": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Ruiqi Chen",
+      "before": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Shichao Zhong",
+      "before": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg"
+      },
+      "alumni_before": {
+        "name": "Shichao Zhong",
+        "coadvisor": null,
+        "destination": "Joined Shanghai Municipal People's Government"
+      },
+      "alumni_after": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Hairuo Lu",
+      "before": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Kefan Tao",
+      "before": {
+        "name": "Kefan Tao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/21_TaoKefan.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Kefan Tao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/21_TaoKefan.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Yonghao Jiao",
+      "before": {
+        "name": "Yonghao Jiao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/22_JiaoYonghao.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Yonghao Jiao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/22_JiaoYonghao.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Yang Song",
+      "before": {
+        "name": "Yang Song",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "Digital video compression",
+        "img": "/images/people/24_SongYang.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Yang Song",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "Digital video compression",
+        "img": "/images/people/24_SongYang.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    },
+    {
+      "name": "Wenfu Hu",
+      "before": {
+        "name": "Wenfu Hu",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/25_HuWenfu.jpg"
+      },
+      "alumni_before": null,
+      "alumni_after": {
+        "name": "Wenfu Hu",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/25_HuWenfu.jpg",
+        "destination": null
+      },
+      "source": "User confirmed all 8 are graduates and destinations await further information, 2026-10-17."
+    }
+  ]
+}

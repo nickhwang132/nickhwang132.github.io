@@ -1,0 +1,10 @@
+/* Static bibliography stays readable without client-side scripts. */
+.publication-year-group { display: grid; grid-template-columns: 95px minmax(0, 1fr); gap: 24px; border-top: 1px solid #e8e5e1; padding: 26px 0 8px; }
+.academic-page .publication-year-group h2 { margin: 0; font: normal 28px/1.4 Georgia, serif; color: #94070a; }
+.publication-list { padding-left: 22px; margin: 0; font-size: 14px; line-height: 1.85; }
+.publication-list li::marker { color: #9a9391; font-size: 11px; }
+.publications-empty { color: #656569; padding: 20px 0; }
+@media (max-width: 650px) {
+  .publication-year-group { grid-template-columns: minmax(0, 1fr); gap: 18px; padding-top: 24px; }
+  .publication-list { font-size: 14px; }
+}

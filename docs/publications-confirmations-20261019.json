@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-19",
+  "source": "Direct user confirmation in current conversation",
+  "before_sha256": "0cbd9532e3681b698c1aa2ffc15fa0a08c16a920832601e49de7ac2b5561071b",
+  "paper_updates": [
+    {
+      "before": {
+        "id": "paper-61",
+        "title": "Instant-CIM: An Instant Neural Radiance Field Computing-In-Memory Architecture for Low-Power and Real-Time AR/VR Rendering",
+        "authors": [
+          "Lixia Han",
+          "Yiyang Chen",
+          "Hui Chen",
+          "Xueming Fu",
+          "Zheng Zhou",
+          "Ke Chen",
+          "Peng Huang",
+          "Yijun Cui",
+          "Weiqiang Liu"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Computers",
+        "volume": "75",
+        "issue": "2",
+        "pages": "693-705",
+        "article_number": null,
+        "doi": "10.1109/tc.2025.3642843",
+        "url": "https://doi.org/10.1109/tc.2025.3642843",
+        "publication_date": "2026-02",
+        "status": "published",
+        "citation": "Lixia Han, Yiyang Chen, Hui Chen, Xueming Fu, Zheng Zhou, Ke Chen, **Peng Huang**, Yijun Cui, Weiqiang Liu. [Instant-CIM: An Instant Neural Radiance Field Computing-In-Memory Architecture for Low-Power and Real-Time AR/VR Rendering](https://doi.org/10.1109/tc.2025.3642843). *IEEE Transactions on Computers*, vol. 75, no. 2, pp. 693–705 (2026)."
+      },
+      "after": {
+        "id": "paper-61",
+        "title": "Instant-CIM: An Instant Neural Radiance Field Computing-In-Memory Architecture for Low-Power and Real-Time AR/VR Rendering",
+        "authors": [
+          "Lixia Han",
+          "Yiyang Chen",
+          "Hui Chen",
+          "Xueming Fu",
+          "Zheng Zhou",
+          "Ke Chen",
+          "Peng Huang",
+          "Yijun Cui",
+          "Weiqiang Liu"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Computers",
+        "volume": "75",
+        "issue": "2",
+        "pages": "693-705",
+        "article_number": null,
+        "doi": "10.1109/tc.2025.3642843",
+        "url": "https://doi.org/10.1109/tc.2025.3642843",
+        "publication_date": "2026-02",
+        "status": "published",
+        "citation": "Lixia Han, Yiyang Chen, Hui Chen, Xueming Fu, Zheng Zhou, Ke Chen, **Peng Huang**, Yijun Cui, Weiqiang Liu. [Instant-CIM: An Instant Neural Radiance Field Computing-In-Memory Architecture for Low-Power and Real-Time AR/VR Rendering](https://doi.org/10.1109/tc.2025.3642843). *IEEE Transactions on Computers*, vol. 75, no. 2, pp. 693–705 (2026).",
+        "group_year": 2025
+      },
+      "reason": "用户认可按Scholar/在线年份分组；正式卷期年和引文保留不改。"
+    },
+    {
+      "before": {
+        "id": "paper-60",
+        "title": "Toward High 2Pr in Al:HfO2 Capacitors at Low Thermal Budgets: The Interplay of Crystallinity, Phase, and Ferroelectricity",
+        "authors": [
+          "Zhuohua Tang",
+          "Xujin Song",
+          "Wanwang Yang",
+          "Shangze Li",
+          "Dijiang Sun",
+          "Ruiqi Chen",
+          "Yulin Feng",
+          "Jinfeng Kang",
+          "Peng Huang"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Materials for Electron Devices",
+        "volume": "3",
+        "issue": null,
+        "pages": "8-14",
+        "article_number": null,
+        "doi": "10.1109/tmat.2025.3637185",
+        "url": "https://doi.org/10.1109/tmat.2025.3637185",
+        "publication_date": "2026",
+        "status": "published",
+        "citation": "Zhuohua Tang, Xujin Song, Wanwang Yang, Shangze Li, Dijiang Sun, Ruiqi Chen, Yulin Feng, Jinfeng Kang, **Peng Huang**. [Toward High 2Pr in Al:HfO2 Capacitors at Low Thermal Budgets: The Interplay of Crystallinity, Phase, and Ferroelectricity](https://doi.org/10.1109/tmat.2025.3637185). *IEEE Transactions on Materials for Electron Devices*, vol. 3, pp. 8–14 (2026)."
+      },
+      "after": {
+        "id": "paper-60",
+        "title": "Toward High 2Pr in Al:HfO2 Capacitors at Low Thermal Budgets: The Interplay of Crystallinity, Phase, and Ferroelectricity",
+        "authors": [
+          "Zhuohua Tang",
+          "Xujin Song",
+          "Wanwang Yang",
+          "Shangze Li",
+          "Dijiang Sun",
+          "Ruiqi Chen",
+          "Yulin Feng",
+          "Jinfeng Kang",
+          "Peng Huang"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Materials for Electron Devices",
+        "volume": "3",
+        "issue": null,
+        "pages": "8-14",
+        "article_number": null,
+        "doi": "10.1109/tmat.2025.3637185",
+        "url": "https://doi.org/10.1109/tmat.2025.3637185",
+        "publication_date": "2026",
+        "status": "published",
+        "citation": "Zhuohua Tang, Xujin Song, Wanwang Yang, Shangze Li, Dijiang Sun, Ruiqi Chen, Yulin Feng, Jinfeng Kang, **Peng Huang**. [Toward High 2Pr in Al:HfO2 Capacitors at Low Thermal Budgets: The Interplay of Crystallinity, Phase, and Ferroelectricity](https://doi.org/10.1109/tmat.2025.3637185). *IEEE Transactions on Materials for Electron Devices*, vol. 3, pp. 8–14 (2026).",
+        "group_year": 2025
+      },
+      "reason": "用户认可按Scholar/在线年份分组；正式卷期年和引文保留不改。"
+    },
+    {
+      "before": {
+        "id": "paper-88",
+        "title": "An Improved RRAM-Based Binarized Neural Network With High Variation-Tolerated Forward/Backward Propagation Module",
+        "authors": [
+          "Yizhou Zhang",
+          "Huaqiang Wu",
+          "He Qian",
+          "Jinfeng Kang",
+          "Zheng Zhou",
+          "Peng Huang",
+          "Mengqi Fan",
+          "Runze Han",
+          "Wensheng Shen",
+          "Lifeng Liu",
+          "Xiaoyan Liu",
+          "Bin Gao"
+        ],
+        "year": 2020,
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "67",
+        "issue": "2",
+        "pages": "469-473",
+        "article_number": null,
+        "doi": "10.1109/ted.2019.2956967",
+        "url": "https://doi.org/10.1109/ted.2019.2956967",
+        "publication_date": "2020-02",
+        "status": "published",
+        "citation": "Yizhou Zhang, Huaqiang Wu, He Qian, Jinfeng Kang, Zheng Zhou, **Peng Huang**, Mengqi Fan, Runze Han, Wensheng Shen, Lifeng Liu, Xiaoyan Liu, Bin Gao. [An Improved RRAM-Based Binarized Neural Network With High Variation-Tolerated Forward/Backward Propagation Module](https://doi.org/10.1109/ted.2019.2956967). *IEEE Transactions on Electron Devices*, vol. 67, no. 2, pp. 469–473 (2020)."
+      },
+      "after": {
+        "id": "paper-88",
+        "title": "An Improved RRAM-Based Binarized Neural Network With High Variation-Tolerated Forward/Backward Propagation Module",
+        "authors": [
+          "Yizhou Zhang",
+          "Huaqiang Wu",
+          "He Qian",
+          "Jinfeng Kang",
+          "Zheng Zhou",
+          "Peng Huang",
+          "Mengqi Fan",
+          "Runze Han",
+          "Wensheng Shen",
+          "Lifeng Liu",
+          "Xiaoyan Liu",
+          "Bin Gao"
+        ],
+        "year": 2020,
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "67",
+        "issue": "2",
+        "pages": "469-473",
+        "article_number": null,
+        "doi": "10.1109/ted.2019.2956967",
+        "url": "https://doi.org/10.1109/ted.2019.2956967",
+        "publication_date": "2020-02",
+        "status": "published",
+        "citation": "Yizhou Zhang, Huaqiang Wu, He Qian, Jinfeng Kang, Zheng Zhou, **Peng Huang**, Mengqi Fan, Runze Han, Wensheng Shen, Lifeng Liu, Xiaoyan Liu, Bin Gao. [An Improved RRAM-Based Binarized Neural Network With High Variation-Tolerated Forward/Backward Propagation Module](https://doi.org/10.1109/ted.2019.2956967). *IEEE Transactions on Electron Devices*, vol. 67, no. 2, pp. 469–473 (2020).",
+        "group_year": 2019
+      },
+      "reason": "用户认可按Scholar/在线年份分组；正式卷期年和引文保留不改。"
+    },
+    {
+      "before": {
+        "id": "paper-59",
+        "title": "Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering",
+        "authors": [
+          "Yading Yi",
+          "Xujin Song",
+          "Zhuohua Tang",
+          "Shangze Li",
+          "Dijiang Sun",
+          "Shiyue Song",
+          "Yulin Feng",
+          "Zheng Zhou",
+          "Peng Huang",
+          "Jinfeng Kang",
+          "Lifeng Liu"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "73",
+        "issue": "1",
+        "pages": "304-309",
+        "article_number": null,
+        "doi": "10.1109/ted.2025.3636494",
+        "url": "https://doi.org/10.1109/ted.2025.3636494",
+        "publication_date": "2026-01",
+        "status": "published",
+        "citation": "Yading Yi, Xujin Song, Zhuohua Tang, Shangze Li, Dijiang Sun, Shiyue Song, Yulin Feng, Zheng Zhou, **Peng Huang**, Jinfeng Kang, Lifeng Liu. [Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering](https://doi.org/10.1109/ted.2025.3636494). *IEEE Transactions on Electron Devices*, vol. 73, no. 1, pp. 304–309 (2026)."
+      },
+      "after": {
+        "id": "paper-59",
+        "title": "Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering",
+        "authors": [
+          "Yading Yi",
+          "Xujin Song",
+          "Zhuohua Tang",
+          "Shangze Li",
+          "Dijiang Sun",
+          "Shiyue Song",
+          "Yulin Feng",
+          "Zheng Zhou",
+          "Peng Huang",
+          "Jinfeng Kang",
+          "Lifeng Liu"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "73",
+        "issue": "1",
+        "pages": "304-309",
+        "article_number": null,
+        "doi": "10.1109/ted.2025.3636494",
+        "url": "https://doi.org/10.1109/ted.2025.3636494",
+        "publication_date": "2026-01",
+        "status": "published",
+        "citation": "Yading Yi, Xujin Song, Zhuohua Tang, Shangze Li, Dijiang Sun, Shiyue Song, Yulin Feng, Zheng Zhou, **Peng Huang**, Jinfeng Kang, Lifeng Liu. [Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering](https://doi.org/10.1109/ted.2025.3636494). *IEEE Transactions on Electron Devices*, vol. 73, no. 1, pp. 304–309 (2026).",
+        "online_publication_date": "2025-12-18"
+      },
+      "reason": "Safari已读IEEE正式详情11304259：Date of Publication 18 December 2025，正式73(1),304–309,January2026；作者顺序与出版方登记一致。",
+      "source_url": "https://ieeexplore.ieee.org/document/11304259"
+    }
+  ],
+  "confirmed_unchanged": [
+    {
+      "record": {
+        "id": "paper-59",
+        "title": "Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering",
+        "authors": [
+          "Yading Yi",
+          "Xujin Song",
+          "Zhuohua Tang",
+          "Shangze Li",
+          "Dijiang Sun",
+          "Shiyue Song",
+          "Yulin Feng",
+          "Zheng Zhou",
+          "Peng Huang",
+          "Jinfeng Kang",
+          "Lifeng Liu"
+        ],
+        "year": 2026,
+        "venue": "IEEE Transactions on Electron Devices",
+        "volume": "73",
+        "issue": "1",
+        "pages": "304-309",
+        "article_number": null,
+        "doi": "10.1109/ted.2025.3636494",
+        "url": "https://doi.org/10.1109/ted.2025.3636494",
+        "publication_date": "2026-01",
+        "status": "published",
+        "citation": "Yading Yi, Xujin Song, Zhuohua Tang, Shangze Li, Dijiang Sun, Shiyue Song, Yulin Feng, Zheng Zhou, **Peng Huang**, Jinfeng Kang, Lifeng Liu. [Improvement on Uniformity and Endurance of Ag-Based Volatile Memristor via Annealing Engineering](https://doi.org/10.1109/ted.2025.3636494). *IEEE Transactions on Electron Devices*, vol. 73, no. 1, pp. 304–309 (2026)."
+      },
+      "reason": "用户明确按正式TED登记保留，不要求Scholar主页出现；73(1):304–309, 2026，DOI10.1109/TED.2025.3636494。"
+    }
+  ],
+  "decisions": [
+    "TMO-ReRAM based synaptic device…及superior endurance…明确不添加。",
+    "MBA暂未有正式出版书目，按DAC2026官方会议记录整理和展示，不计正式论文。",
+    "用户确认ISCAS4/EDTM1/DATE1六篇候选即年报对应成果，解除逐篇对应疑问。",
+    "仅修改上述三篇页面分组年份，不改正式引文年；其余论文保留当前待讨论范围。"
+  ],
+  "program_updates": [
+    {
+      "before": {
+        "id": "program-mba-2026",
+        "title": "MBA: Mega-Buffer Architecture Based on 1T1C IGZO eDRAM for Efficient LLM Inference",
+        "authors": [
+          "Siyuan Chen",
+          "Ruiqi Chen",
+          "Jiaqi Li",
+          "Shiyang Li",
+          "Ao Shi",
+          "Yiyang Chen",
+          "Yi Xiao",
+          "Zhuohua Tang",
+          "Lifeng Liu",
+          "Peng Huang"
+        ],
+        "year": 2026,
+        "venue": "63rd ACM/IEEE Design Automation Conference (DAC)",
+        "status": "conference-program",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH509&sess=sess318",
+        "citation": "Siyuan Chen, Ruiqi Chen, Jiaqi Li, Shiyang Li, Ao Shi, Yiyang Chen, Yi Xiao, Zhuohua Tang, Lifeng Liu, **Peng Huang**. [MBA: Mega-Buffer Architecture Based on 1T1C IGZO eDRAM for Efficient LLM Inference](https://63dac.conference-program.com/presentation/?id=RESEARCH509&sess=sess318). *63rd ACM/IEEE Design Automation Conference (DAC)* (2026). Conference program record."
+      },
+      "after": {
+        "id": "program-mba-2026",
+        "title": "MBA: Mega-Buffer Architecture Based on 1T1C IGZO eDRAM for Efficient LLM Inference",
+        "authors": [
+          "Siyuan Chen",
+          "Ruiqi Chen",
+          "Jiaqi Li",
+          "Shiyang Li",
+          "Ao Shi",
+          "Yiyang Chen",
+          "Yi Xiao",
+          "Zhuohua Tang",
+          "Lifeng Liu",
+          "Peng Huang"
+        ],
+        "year": 2026,
+        "venue": "63rd ACM/IEEE Design Automation Conference (DAC)",
+        "status": "conference-program",
+        "url": "https://63dac.conference-program.com/presentation/?id=RESEARCH509&sess=sess318",
+        "citation": "Siyuan Chen, Ruiqi Chen, Jiaqi Li, Shiyang Li, Ao Shi, Yiyang Chen, Yi Xiao, Zhuohua Tang, Lifeng Liu, **Peng Huang**. [MBA: Mega-Buffer Architecture Based on 1T1C IGZO eDRAM for Efficient LLM Inference](https://63dac.conference-program.com/presentation/?id=RESEARCH509&sess=sess318). *63rd ACM/IEEE Design Automation Conference (DAC)* (2026). Research Manuscript, RM Poster Session Seven; conference program record.",
+        "presentation_type": "Research Manuscript",
+        "session": "RM Poster Session Seven",
+        "presentation_date": "2026-07-29"
+      },
+      "source_url": "https://63dac.conference-program.com/presentation/?id=RESEARCH509&sess=sess318",
+      "reason": "用户确认暂无正式出版，按DAC2026官方日程显示题名、完整10位作者、会话及Research Manuscript类型，不计正式论文。"
+    }
+  ]
+}

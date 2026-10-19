@@ -1,53 +1,36 @@
 ---
+layout: academic
 permalink: /software/
 title: "Software Release"
-author_profile: true
-redirect_from: 
+intro: "Tools for non-volatile memory and compute-in-memory research."
+redirect_from:
   - /md/
   - /markdown.html
 ---
 
-## [CoMN V1.0](https://github.com/booniebears/CoMN)
+<section class="software-feature">
+  <p class="eyebrow">Open-source research software <span>/</span> MIT License</p>
+  <h2>CoMN</h2>
+  <p class="software-lead">An algorithm–hardware co-design platform for non-volatile memory based neural network accelerators.</p>
+  <p>Developed by Peng Huang's research group at Peking University, CoMN supports design evaluation and optimization from device nonidealities to accelerator architecture.</p>
+  <div class="home-actions"><a class="academic-button" href="https://github.com/booniebears/CoMN">Source code <span aria-hidden="true">↗</span></a><a href="https://github.com/booniebears/CoMN#get-started">Installation &amp; usage ↗</a><a href="https://doi.org/10.1109/TCAD.2024.3358220">Read the paper ↗</a></div>
+</section>
 
-CoMN platform was developed by **Prof. Peng Huang's research group(Peking University)**. The platfrom is proposed for designers to fast verify and further optimize the designments of non-volatile memory based neural network accelerators. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the **MIT License**. The Code of CoMN is available at : [https://github.com/booniebears/CoMN](https://github.com/booniebears/CoMN).
+<div class="software-modules">
+  <article><span class="research-index">01</span><h3>Algorithm adapter</h3><p>Improve neural network inference accuracy while accounting for NVM device nonidealities.</p></article>
+  <article><span class="research-index">02</span><h3>Mapper</h3><p>Map CNN models to CIM chips through pipeline, weight transformation, partition and placement optimization.</p></article>
+  <article><span class="research-index">03</span><h3>Hardware optimizer</h3><p>Explore microarchitecture and circuit design choices during early design.</p></article>
+</div>
 
-### Get Started
+<div class="software-details">
+  <section><h2>Getting started</h2><p>Follow the repository README for build commands, configuration files and example runs. It covers the adapter, mapper and hardware optimizer.</p><p><a href="https://github.com/booniebears/CoMN#get-started">Open the setup guide ↗</a></p>
+  <details class="resource-note"><summary>Web interface</summary><p>The repository links to a <a href="http://101.42.97.22:8081/index.html">web interface</a> requiring registration. The developers recommend local installation; download the source code and follow the setup guide.</p></details></section>
+  <section><h2>Contact</h2><address><a href="mailto:lixiahan@pku.edu.cn">Lixia Han · lixiahan@pku.edu.cn</a><a href="mailto:phwang@pku.edu.cn">Peng Huang · phwang@pku.edu.cn</a><a href="mailto:3197571813@mail.nwpu.edu.cn">Siyuan Chen · 3197571813@mail.nwpu.edu.cn</a></address></section>
+</div>
 
-CoMN is composed of three main parts: **algorithm adapter**, which aims at improving inference accuracy of neural networks by considering the nonidealities of NVM devices; **mapper**, which is developed to automatically map CNN models to CIM chips through optimizing pipeline, weight transformation, partition, and placement; and **hardware optimizer**, which is developed to search hardware microarchitecture and circuit design space in the early design stage.
+## Reference
 
-Before running the algorithm adapter/mapper/hardware optimizer, first compile the C++ files to executable file:
-```bash
-cd src/refactor
-chmod +x run.sh
-./run.sh
-# Go back to CoMN base directory Before executing the following demand
-cd cacti-master
-make
-# Go back to CoMN base directory Before executing the following demand
-cd ORION3_0
-make
-```
-
-Then, use the following instructions to run algorithm adapter/mapper/hardware optimizer:
-```bash
-cd src
-python Accuracy_optimizer.py # adapter
-python Mapping_optimizer.py # mapper
-python Performance_optimizer.py # hardware optimizer
-```
-You can change configurations of CoMN in directory "Parameters", where all the json files except epoch.json can be reconfigured, and all the txt files are just intermediate products.
-The generations of the python files are located in "generate_data/tcad".
-
-### GUI for CoMN
-We have also developed a Web GUI for CoMN. You can access the platform via [http://101.42.97.22:8081/index.html](http://101.42.97.22:8081/index.html). You need to register first before using platform.
-
-### Contact Us
-Lixia Han: lixiahan@pku.edu.cn
-
-Peng Huang: phwang@pku.edu.cn
-
-Siyuan Chen (Now maintaining the code): 3197571813@mail.nwpu.edu.cn
-
-If you use the tool or adapt the tool in your work or publication, you are required to cite the following reference:
-
-**Lixia, Han & Pan, Renjie & Zhou, Zheng & Lu, Hairuo & Chen, Yiyang & Haozhang, Yang & Huang, Peng & Sun, Guangyu & Kang, Jinfeng. (2024).** **CoMN: Algorithm-Hardware Co-Design Platform for Non-Volatile Memory Based Convolutional Neural Network Accelerators. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems. PP. 1-1. 10.1109/TCAD.2024.3358220.** 
+<p>Please cite the CoMN paper when using or adapting the platform.</p>
+<div class="software-reference" markdown="1">
+{% for paper in site.data.publications.publications %}{% if paper.title contains 'CoMN:' %}{{ paper.citation }}{% endif %}{% endfor %}
+</div>

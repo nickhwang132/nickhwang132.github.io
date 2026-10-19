@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Peng Huang"
 title_separator          : "-"
 name                     : &name "Peng Huang"
-description              : &description "personal description"
+description              : &description "Peng Huang — emerging devices and computing-in-memory at Peking University"
 url                      : https://nickhwang132.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nickhwang132/nickhwang132.github.io"
@@ -42,7 +42,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/nickhwang132"
+  github           : "nickhwang132"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -147,6 +147,18 @@ include:
   - _pages
   - files
 exclude:
+  - archive/**
+  - markdown_generator
+  - scripts
+  - docs
+  - HANDOFF.md
+  - AGENTS.md
+  - README.md
+  - Gemfile.lock
+  - .ruby-version
+  - _config.preview.yml
+  - .local
+  - .bundle
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -161,6 +173,7 @@ exclude:
   - README
   - Rakefile
   - assets/js/_main.js
+  - assets/js/main.min.js
   - assets/js/plugins
   - assets/js/vendor
   - config
@@ -274,7 +287,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

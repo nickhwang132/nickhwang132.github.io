@@ -1,8 +1,6 @@
 ---
 permalink: /service/
 title: "Service"
-author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
+layout: academic
+empty_section: true
 ---
