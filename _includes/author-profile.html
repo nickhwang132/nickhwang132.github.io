@@ -8,9 +8,19 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+	  <img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    {% assign avatar_base = author.avatar | split: '.' | first %}
+    {% assign avatar_ext = author.avatar | split: '.' | last %}
+    <img
+      src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
+      srcset="{{ base_path }}/images/generated/profile/{{ avatar_base }}-160.{{ avatar_ext }} 160w, {{ base_path }}/images/generated/profile/{{ avatar_base }}-320.{{ avatar_ext }} 320w"
+      sizes="120px"
+      class="author__avatar"
+      alt="{{ author.name }}"
+      loading="eager"
+      decoding="async"
+    >
     {% endif %}
   </div>
 

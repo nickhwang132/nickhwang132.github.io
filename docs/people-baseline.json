@@ -1,0 +1,258 @@
+{
+  "people": [
+    {
+      "name": "Yiyang Chen",
+      "degree": "Ph.D. Students",
+      "since": 2021,
+      "coadvisor": "Lifeng Liu",
+      "research": "RRAM-based CIM chip design",
+      "img": "/images/people/7_ChenYiyang.jpg"
+    },
+    {
+      "name": "Ruiqi Chen",
+      "degree": "Ph.D. Students",
+      "since": 2021,
+      "coadvisor": "Xiaoyan Liu",
+      "research": "Emerging computing based on oxide transistor",
+      "img": "/images/people/8_ChenRuiqi.jpg"
+    },
+    {
+      "name": "Zhuohua Tang",
+      "degree": "Ph.D. Students",
+      "since": 2022,
+      "coadvisor": null,
+      "research": "Ferroelectric devices",
+      "img": "/images/people/9_TangZhuohua.jpg"
+    },
+    {
+      "name": "Jiaqi Li",
+      "degree": "Ph.D. Students",
+      "since": 2022,
+      "coadvisor": "Jinfeng Kang",
+      "research": "Neuromorphic computing chip and system",
+      "img": "/images/people/10_LiJiaqi.jpg"
+    },
+    {
+      "name": "Ao Shi",
+      "degree": "Ph.D. Students",
+      "since": 2022,
+      "coadvisor": "Lifeng Liu",
+      "research": "CIM circuit and chip design",
+      "img": "/images/people/11_ShiAo.jpg"
+    },
+    {
+      "name": "Kexun Li",
+      "degree": "Ph.D. Students",
+      "since": 2022,
+      "coadvisor": "Lifeng Liu",
+      "research": "CIM chip and system design",
+      "img": "/images/people/12_LiKexun.jpg"
+    },
+    {
+      "name": "Hao Ai",
+      "degree": "Ph.D. Students",
+      "since": 2023,
+      "coadvisor": null,
+      "research": "3D integration of RRAM",
+      "img": "/images/people/13_AiHao.jpg"
+    },
+    {
+      "name": "Lianliang Wu",
+      "degree": "Ph.D. Students",
+      "since": 2023,
+      "coadvisor": null,
+      "research": "CIM circuit and chip design",
+      "img": "/images/people/14_WuLianliang.jpg"
+    },
+    {
+      "name": "Nan Tang",
+      "degree": "Ph.D. Students",
+      "since": 2023,
+      "coadvisor": "Xiaoyan Liu",
+      "research": "Neuromorphic computing chip and system",
+      "img": "/images/people/15_TangNan.jpg"
+    },
+    {
+      "name": "Shiyang Li",
+      "degree": "Ph.D. Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "CIM chip and system design",
+      "img": "/images/people/18_LiShiyang.jpg"
+    },
+    {
+      "name": "Yi Xiao",
+      "degree": "Ph.D. Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "Emerging sensing-computing chip and system",
+      "img": "/images/people/19_XiaoYi.jpg"
+    },
+    {
+      "name": "Siyuan Chen",
+      "degree": "Ph.D. Students",
+      "since": 2024,
+      "coadvisor": "Lifeng Liu",
+      "research": "Neuromorphic computing and novel architecture design",
+      "img": "/images/people/20_ChenSiyuan.jpg"
+    },
+    {
+      "name": "Guangjin Li",
+      "degree": "Ph.D. Students",
+      "since": 2024,
+      "coadvisor": "Lifeng Liu",
+      "research": "Neuromorphic computing chip and system",
+      "img": "/images/people/23_LiGuangjin.jpg"
+    },
+    {
+      "name": "Haobin Shang",
+      "degree": "Ph.D. Students",
+      "since": 2025,
+      "coadvisor": null,
+      "research": "CIM circuit and chip design",
+      "img": "/images/people/26_ShangHaobin.jpg"
+    },
+    {
+      "name": "Kaihuai Xie",
+      "degree": "Ph.D. Students",
+      "since": 2025,
+      "coadvisor": null,
+      "research": "",
+      "img": "/images/people/27_XieKaihuai.jpg"
+    },
+    {
+      "name": "Binghuan Zeng",
+      "degree": "Ph.D. Students",
+      "since": 2025,
+      "coadvisor": null,
+      "research": "Neuromorphic computing chip and system",
+      "img": "/images/people/28_ZengBinghuan.jpg"
+    },
+    {
+      "name": "Shichao Zhong",
+      "degree": "Master Students",
+      "since": 2022,
+      "coadvisor": null,
+      "research": "RRAM reliability",
+      "img": "/images/people/16_ZhongShichao.jpg"
+    },
+    {
+      "name": "Hairuo Lu",
+      "degree": "Master Students",
+      "since": 2023,
+      "coadvisor": null,
+      "research": "CIM chip and system design",
+      "img": "/images/people/17_LuHairuo.jpg"
+    },
+    {
+      "name": "Kefan Tao",
+      "degree": "Master Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "CIM circuit and chip design",
+      "img": "/images/people/21_TaoKefan.jpg"
+    },
+    {
+      "name": "Yonghao Jiao",
+      "degree": "Master Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "CIM chip and system design",
+      "img": "/images/people/22_JiaoYonghao.jpg"
+    },
+    {
+      "name": "Yang Song",
+      "degree": "Master Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "Digital video compression",
+      "img": "/images/people/24_SongYang.jpg"
+    },
+    {
+      "name": "Wenfu Hu",
+      "degree": "Master Students",
+      "since": 2024,
+      "coadvisor": null,
+      "research": "CIM chip and system design",
+      "img": "/images/people/25_HuWenfu.jpg"
+    },
+    {
+      "name": "Xu Yan",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": "/images/people/29_YanXu.jpg"
+    },
+    {
+      "name": "Yuxiang Jia",
+      "degree": "Undergraduate Students",
+      "since": null,
+      "coadvisor": null,
+      "research": "",
+      "img": "/images/people/30_JiaYuxiang.jpg"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Yizhou Zhang",
+      "coadvisor": "Jinfeng Kang",
+      "destination": "Joined Rongyao as Senior Engineer"
+    },
+    {
+      "name": "Yulin Feng",
+      "coadvisor": "Lifeng Liu",
+      "destination": "Joined Beijing Information Science and Technology University as associate professor"
+    },
+    {
+      "name": "Xiangxiang Ding",
+      "coadvisor": "Lifeng Liu",
+      "destination": "Joined Huawei as Senior Engineer"
+    },
+    {
+      "name": "Yachen Xiang",
+      "coadvisor": "Xiaoyan Liu",
+      "destination": "Joined Huawei as Senior Engineer"
+    },
+    {
+      "name": "Wensheng Shen",
+      "coadvisor": "Xing Zhang",
+      "destination": "Joined Huawei as Senior Engineer"
+    },
+    {
+      "name": "Runze Han",
+      "coadvisor": "Jinfeng Kang",
+      "destination": "Joined Zhiyuan as copartner"
+    },
+    {
+      "name": "Guihai Yu",
+      "coadvisor": "Jinfeng Kang",
+      "destination": "Joined CAST as Senior Engineer"
+    },
+    {
+      "name": "Lixia Han",
+      "coadvisor": "Xiaoyan Liu",
+      "destination": "Joined Nanjing University of Aeronautics and Astronautics as associate professor"
+    },
+    {
+      "name": "Ruiyi Li",
+      "coadvisor": "Lifeng Liu",
+      "destination": "Joined SMIC as Senior Engineer"
+    },
+    {
+      "name": "Haozhang Yang",
+      "coadvisor": null,
+      "destination": "Joined YMTC as Senior Engineer"
+    },
+    {
+      "name": "Shiyue Song",
+      "coadvisor": "Lifeng Liu",
+      "destination": "Joined China North Navigation and Control Technology Research Institute"
+    },
+    {
+      "name": "Shichao Zhong",
+      "coadvisor": null,
+      "destination": "Joined Shanghai Municipal People's Government"
+    }
+  ]
+}

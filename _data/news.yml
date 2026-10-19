@@ -1,0 +1,21 @@
+news:
+  - image: "/images/news4.jpg"
+    width: 7008
+    height: 3942
+    caption: "Celebrating our 2025 research group graduation!"
+    alt: "2025 Graduation celebration"
+  - image: "/images/news3.jpg"
+    width: 1706
+    height: 960
+    caption: "Nan Tang presenting at 2025 VLSI."
+    alt: "VLSI presentation"
+  - image: "/images/news2.jpg"
+    width: 1701
+    height: 957
+    caption: "Yiyang Chen presenting at 2024 IEDM."
+    alt: "IEDM presentation"
+  - image: "/images/news1.jpg"
+    width: 6048
+    height: 3402
+    caption: "Celebrating our 2024 research group graduation!"
+    alt: "2024 Graduation celebration"

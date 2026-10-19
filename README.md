@@ -1,23 +1,57 @@
+# Peng Huang — academic website
 
-# Peng Huang - Personal Academic Website
+Academic website for Prof. Peng Huang, School of Integrated Circuits, Peking University. The existing public address is <https://nickhwang132.github.io/>. The site uses Jekyll / Academic Pages and retains the established section URLs.
 
-This is the personal academic website of **Peng Huang**, Assistant Professor at Peking University.
+## Run and check
 
-**Website URL**: [https://nickhwang132.github.io/](https://nickhwang132.github.io/)
+Ruby 3.3, GitHub Pages gem 232 and locked dependencies are recorded in `.ruby-version`, `Gemfile` and `Gemfile.lock`.
 
-## About
+```sh
+scripts/site setup
+scripts/site build
+scripts/site check
+scripts/site serve
+```
 
-This website showcases Prof. Peng Huang's academic work, including research publications, courses, and professional activities. The site is built using Jekyll and hosted on GitHub Pages.
+The preview is available at <http://127.0.0.1:4173/>. It rebuilds on startup; restart after source changes. On macOS the script uses Homebrew Ruby 3.3 when available, without changing global Ruby settings. CI validates pull requests and `master`; GitHub Pages publishes from `master` using the repository's existing Pages configuration.
 
-## Website Maintenance
+## Publication review and selection
 
-**Current Maintainer**: Shiyang Li  
-**Contact**: LiShiyang@stu.pku.edu.cn
+**Preserve the complete review, including excluded records.** The approved rule is that Peng Huang must be a corresponding author or the first listed author. Author identity labels are not displayed on the website. First author means the first author in the verified author list; equal contribution must be checked separately.
 
-For technical issues or updates to this website, please contact the maintainer above.
+- [`docs/publications-review.json`](docs/publications-review.json) is the maintained review: all 193 formal records, original-site membership, formal publication year, author roles, evidence, original citations where available, inclusion decision and reason.
+- [`docs/publications-review.md`](docs/publications-review.md) and [CSV](docs/publications-review.csv) provide readable review tables.
+- `_data/publications.yml` retains all 193 formal records and the separate preprint, conference-program, talk, chapter and patent source collections.
+- `_data/publication_selection.yml` contains the 100 reviewed IDs used by the website. The 93 excluded records remain in the bibliography and review. All 57 original-site records are included, including papers 51, 54 and 55 as first-author work.
 
-## Template Attribution
+After changing bibliographic information or a verified role, update the matching review record and its evidence, then regenerate and check:
 
-This website is based on the Academic Pages template, which was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/). The original theme is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). The Academic Pages template is currently maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers.
+```sh
+ruby scripts/select_publications.rb --write
+scripts/site build
+scripts/site check
+```
 
-For issues related to the original template, please refer to the [Academic Pages repository](https://github.com/academicpages/academicpages.github.io).
+The audit's bibliography hash must be updated after an intentional bibliography edit. Never infer a negative role from a missing field, and never remove an excluded paper from the review just to make counts match. Keep the original-site baseline and prior source citations. Preprints remain source-only; MBA is shown separately as an official DAC conference-program record and is not counted as a published paper.
+
+## Content sources
+
+| Content | Source |
+| --- | --- |
+| Biography and research | `_pages/about.md` |
+| Homepage paper highlights | `_data/home.yml` |
+| All publication and patent source records | `_data/publications.yml` |
+| Approved public paper selection | `_data/publication_selection.yml` |
+| All formal publication review records | `docs/publications-review.json` |
+| News and group photographs | `_data/updates.yml`, `_data/news.yml` |
+| Faculty, students and alumni | `_data/people.yml` |
+| Software | `_pages/software.md` |
+| Layout and styles | `_layouts/`, `_sass/` |
+
+Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Courses, Service and Chips keep their existing URLs pending supplied content. The remaining student photo and research-field gaps are intentionally omitted.
+
+Documentation, maintenance scripts, historical theme archives and local evidence are excluded from the published website. Local licensed full texts, raw source materials, machine-specific handoffs and original user files are not release assets. Keep recovery snapshots outside the checkout and restore into a separate directory.
+
+## Attribution
+
+Based on [Academic Pages](https://github.com/academicpages/academicpages.github.io) and [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), under the existing MIT license. Peking University asset provenance is recorded in [`docs/asset-sources.md`](docs/asset-sources.md).

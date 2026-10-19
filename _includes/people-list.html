@@ -1,0 +1,52 @@
+{% assign degrees = 'Ph.D. Students|Master Students|Graduate Students|Undergraduate Students' | split: '|' %}
+<nav class="section-nav" aria-label="People sections">
+  {% for degree in degrees %}
+    {% assign members = site.data.people.people | where: 'degree', degree %}
+    {% assign section_id = degree | replace: 'Ph.D.', 'phd' | slugify %}
+    {% if members.size > 0 %}<a href="#{{ section_id }}">{{ degree }}</a>{% endif %}
+  {% endfor %}
+  <a href="#graduates">Alumni</a>
+</nav>
+{% for degree in degrees %}
+  {% assign members = site.data.people.people | where: 'degree', degree %}
+  {% assign section_id = degree | replace: 'Ph.D.', 'phd' | slugify %}
+  {% if members.size > 0 %}
+  <section class="people-section" id="{{ section_id }}">
+    <div class="section-heading"><h2>{{ degree }}</h2><span class="section-meta">{{ members.size }} members</span></div>
+    <div class="people-grid">
+    {% for p in members %}
+      {% assign person_base = p.img | split: '/' | last | split: '.' | first %}
+      <article class="person-card{% unless p.img %} person-card--text{% endunless %}" data-member="{{ p.name }}">
+        {% if p.img %}
+        <img src="{{ p.img | relative_url }}" {% unless p.responsive == false %}srcset="{{ '/images/generated/people/' | relative_url }}{{ person_base }}-320.jpg 320w, {{ '/images/generated/people/' | relative_url }}{{ person_base }}-640.jpg 640w" sizes="96px"{% endunless %} width="96" height="120" alt="{{ p.name }}" loading="lazy" decoding="async">
+        {% endif %}
+        <div class="person-card__text">
+          {% if p.since %}<p class="person-since">{% if p.entry_route == 'direct' %}Direct-entry Ph.D. · {% endif %}Since {{ p.since }}</p>{% elsif p.study_year %}<p class="person-since">Year {{ p.study_year }}</p>{% endif %}
+          <h3>{{ p.name }}</h3>
+          {% if p.research != '' %}<p class="person-research">{{ p.research }}</p>{% endif %}
+          {% if p.coadvisor %}<p class="person-coadvisor">Co-advised with Prof. {{ p.coadvisor }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+<section class="people-section" id="graduates">
+  <div class="section-heading"><h2>Alumni</h2><span class="section-meta">{{ site.data.people.alumni.size }} alumni</span></div>
+  {% assign graduates = site.data.people.alumni | sort: 'graduation_year' %}
+  {% assign graduation_years = graduates | map: 'graduation_year' | uniq %}
+  {% for year in graduation_years %}
+  <section class="alumni-year" data-graduation-year="{{ year }}">
+  <h3>{{ year }}</h3>
+  <ul class="alumni-list">
+  {% assign year_graduates = graduates | where: 'graduation_year', year %}
+  {% for p in year_graduates %}
+    <li data-alumnus="{{ p.name }}"><h4>{{ p.name }}</h4><div>
+      {% if p.destination %}<p>{{ p.destination }}</p>{% endif %}
+    </div></li>
+  {% endfor %}
+  </ul>
+  </section>
+  {% endfor %}
+</section>

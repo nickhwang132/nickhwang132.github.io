@@ -100,6 +100,14 @@
     font-size: $type-size-6;
   }
 
+  .intro-paragraph {
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.85;
+    font-size: 1.03rem;
+    color: $text-color;
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
@@ -148,6 +156,7 @@
 
     .page__lead {
       max-width: $medium;
+      line-height: 1.7;
     }
 
     .page__title {
@@ -158,6 +167,14 @@
       }
     }
   }
+}
+
+.page__content .carousel-container {
+  max-width: 100%;
+  margin: 1.25rem 0 1.75rem;
+  border-radius: 16px;
+  border: 1px solid $border-color;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
 }
 
 .page__hero-image {

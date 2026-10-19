@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+if [ -x /opt/homebrew/opt/ruby@3.3/bin/ruby ]; then
+  PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+  export PATH
+fi
+export BUNDLE_PATH="$PWD/vendor/bundle"
+export BUNDLE_USER_HOME="$PWD/.bundle/user"
+case "${1:-serve}" in
+  setup) bundle install ;;
+  build) JEKYLL_ENV=production bundle exec jekyll build --safe --strict_front_matter ;;
+  check) bundle exec ruby scripts/verify.rb ;;
+  serve) bundle exec jekyll serve --no-watch --config _config.yml,_config.preview.yml --safe --host 127.0.0.1 --port 4173 --destination _site-preview ;;
+  *) echo "Usage: scripts/site [setup|build|check|serve]" >&2; exit 2 ;;
+esac

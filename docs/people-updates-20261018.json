@@ -1,0 +1,1315 @@
+{
+  "date": "2026-10-18",
+  "authority": "Latest user-confirmed discussion roster and explicit follow-up spelling/role confirmations",
+  "supersedes": "Previous 2026-10-17 graduation classification for Kefan Tao, Yonghao Jiao, Yang Song and Wenfu Hu. Frozen historical baselines and prior ledger are preserved.",
+  "operations": [
+    {
+      "kind": "move",
+      "from": "alumni",
+      "to": "people",
+      "name": "Kefan Tao",
+      "before": {
+        "name": "Kefan Tao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/21_TaoKefan.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Kefan Tao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/21_TaoKefan.jpg"
+      }
+    },
+    {
+      "kind": "move",
+      "from": "alumni",
+      "to": "people",
+      "name": "Yonghao Jiao",
+      "before": {
+        "name": "Yonghao Jiao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/22_JiaoYonghao.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Yonghao Jiao",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/22_JiaoYonghao.jpg"
+      }
+    },
+    {
+      "kind": "move",
+      "from": "alumni",
+      "to": "people",
+      "name": "Yang Song",
+      "before": {
+        "name": "Yang Song",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "Digital video compression",
+        "img": "/images/people/24_SongYang.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Yang Song",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "Digital video compression",
+        "img": "/images/people/24_SongYang.jpg"
+      }
+    },
+    {
+      "kind": "move",
+      "from": "alumni",
+      "to": "people",
+      "name": "Wenfu Hu",
+      "before": {
+        "name": "Wenfu Hu",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/25_HuWenfu.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Wenfu Hu",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/25_HuWenfu.jpg"
+      }
+    },
+    {
+      "kind": "add",
+      "collection": "people",
+      "after": {
+        "name": "Xiuqi Sui",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      }
+    },
+    {
+      "kind": "add",
+      "collection": "alumni",
+      "after": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "伊亚玎",
+      "before": {
+        "name": "伊亚玎",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "Yading Yi",
+        "degree": "Ph.D. Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "伊亚玎"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Yuxiang Jia",
+      "before": {
+        "name": "Yuxiang Jia",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/30_JiaYuxiang.jpg"
+      },
+      "after": {
+        "name": "Yuxiang Jia",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/30_JiaYuxiang.jpg",
+        "entry_route": "direct"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "韩嘉烁",
+      "before": {
+        "name": "韩嘉烁",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "Jiashuo Han",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "entry_route": "direct",
+        "name_zh": "韩嘉烁"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "吕昊润",
+      "before": {
+        "name": "吕昊润",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "Haorun Lv",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "entry_route": "direct",
+        "name_zh": "吕昊润"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "王麒瑜",
+      "before": {
+        "name": "王麒瑜",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "Qiyu Wang",
+        "degree": "Master Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "王麒瑜"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Xu Yan",
+      "before": {
+        "name": "Xu Yan",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/29_YanXu.jpg"
+      },
+      "after": {
+        "name": "Xu Yan",
+        "degree": "Master Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/29_YanXu.jpg"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "王梓淇",
+      "before": {
+        "name": "王梓淇",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "王梓淇",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 3,
+        "study_year_as_of": "2026-10"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "靳凌熙",
+      "before": {
+        "name": "靳凌熙",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "靳凌熙",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "韩卓廷",
+      "before": {
+        "name": "韩卓廷",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "韩卓廷",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "刘耜源",
+      "before": {
+        "name": "刘耜源",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "刘耜源",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      }
+    },
+    {
+      "kind": "exclude",
+      "collection": "people",
+      "before": {
+        "name": "秦雄昊",
+        "degree": "Graduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "reason": "User explicitly requested no listing, 2026-10-18. Historical record retained in this ledger."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Wensheng Shen",
+      "before": {
+        "name": "Wensheng Shen",
+        "coadvisor": "Xing Zhang",
+        "destination": "Joined Huawei as Senior Engineer"
+      },
+      "after": {
+        "name": "Wensheng Shen",
+        "coadvisor": "Xing Zhang",
+        "destination": "Joined Huawei as Senior Engineer",
+        "graduation_year": 2020
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Runze Han",
+      "before": {
+        "name": "Runze Han",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined Zhiyuan as copartner"
+      },
+      "after": {
+        "name": "Runze Han",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined Zhiyuan as copartner",
+        "graduation_year": 2020
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Yachen Xiang",
+      "before": {
+        "name": "Yachen Xiang",
+        "coadvisor": "Xiaoyan Liu",
+        "destination": "Joined Huawei as Senior Engineer"
+      },
+      "after": {
+        "name": "Yachen Xiang",
+        "coadvisor": "Xiaoyan Liu",
+        "destination": "Joined Huawei as Senior Engineer",
+        "graduation_year": 2021
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Yulin Feng",
+      "before": {
+        "name": "Yulin Feng",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined Beijing Information Science and Technology University as associate professor"
+      },
+      "after": {
+        "name": "Yulin Feng",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined Beijing Information Science and Technology University as associate professor",
+        "graduation_year": 2022
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Xiangxiang Ding",
+      "before": {
+        "name": "Xiangxiang Ding",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined Huawei as Senior Engineer"
+      },
+      "after": {
+        "name": "Xiangxiang Ding",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined Huawei as Senior Engineer",
+        "graduation_year": 2022
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Yizhou Zhang",
+      "before": {
+        "name": "Yizhou Zhang",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined Rongyao as Senior Engineer"
+      },
+      "after": {
+        "name": "Yizhou Zhang",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined Rongyao as Senior Engineer",
+        "graduation_year": 2023
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Guihai Yu",
+      "before": {
+        "name": "Guihai Yu",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined CAST as Senior Engineer"
+      },
+      "after": {
+        "name": "Guihai Yu",
+        "coadvisor": "Jinfeng Kang",
+        "destination": "Joined CAST as Senior Engineer",
+        "graduation_year": 2024
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Lixia Han",
+      "before": {
+        "name": "Lixia Han",
+        "coadvisor": "Xiaoyan Liu",
+        "destination": "Joined Nanjing University of Aeronautics and Astronautics as associate professor"
+      },
+      "after": {
+        "name": "Lixia Han",
+        "coadvisor": "Xiaoyan Liu",
+        "destination": "Joined Nanjing University of Aeronautics and Astronautics as associate professor",
+        "graduation_year": 2024
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Ruiyi Li",
+      "before": {
+        "name": "Ruiyi Li",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined SMIC as Senior Engineer"
+      },
+      "after": {
+        "name": "Ruiyi Li",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined SMIC as Senior Engineer",
+        "graduation_year": 2024
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Haozhang Yang",
+      "before": {
+        "name": "Haozhang Yang",
+        "coadvisor": null,
+        "destination": "Joined YMTC as Senior Engineer"
+      },
+      "after": {
+        "name": "Haozhang Yang",
+        "coadvisor": null,
+        "destination": "Joined YMTC as Senior Engineer",
+        "graduation_year": 2025
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Shiyue Song",
+      "before": {
+        "name": "Shiyue Song",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined China North Navigation and Control Technology Research Institute"
+      },
+      "after": {
+        "name": "Shiyue Song",
+        "coadvisor": "Lifeng Liu",
+        "destination": "Joined China North Navigation and Control Technology Research Institute",
+        "graduation_year": 2025
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Shichao Zhong",
+      "before": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": null,
+        "graduation_year": 2025
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Yiyang Chen",
+      "before": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Ruiqi Chen",
+      "before": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Hairuo Lu",
+      "before": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg",
+        "destination": null
+      },
+      "after": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Haokai Guan",
+      "before": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null
+      },
+      "after": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null,
+        "graduation_year": 2026
+      }
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Yiyang Chen",
+      "before": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      },
+      "after": {
+        "name": "Yiyang Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Lifeng Liu",
+        "research": "RRAM-based CIM chip design",
+        "img": "/images/people/7_ChenYiyang.jpg",
+        "destination": "Joined Huawei as Senior Researcher",
+        "graduation_year": 2026
+      },
+      "source": "User explicitly supplied Huawei Senior Researcher destination, 2026-10-18; existing sentence style retained."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Ruiqi Chen",
+      "before": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      },
+      "after": {
+        "name": "Ruiqi Chen",
+        "degree": "Ph.D. Students",
+        "since": 2021,
+        "coadvisor": "Xiaoyan Liu",
+        "research": "Emerging computing based on oxide transistor",
+        "img": "/images/people/8_ChenRuiqi.jpg",
+        "destination": "Joined Huawei as Senior Researcher",
+        "graduation_year": 2026
+      },
+      "source": "User explicitly supplied Huawei Senior Researcher destination, 2026-10-18; existing sentence style retained."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Shichao Zhong",
+      "before": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": null,
+        "graduation_year": 2025
+      },
+      "after": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": "Joined Shanghai Municipal Civil Affairs Bureau",
+        "graduation_year": 2025
+      },
+      "source": "User supplied more specific Civil Affairs Bureau destination. Git history e91e828 and earlier recorded only Shanghai Municipal People's Government. Official agency English name independently checked, personal employment not independently verified."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Xiuqi Sui",
+      "before": {
+        "name": "Xiuqi Sui",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "",
+        "img": null
+      },
+      "after": {
+        "name": "Xiuqi Sui",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "隋秀琦"
+      },
+      "source": "User-supplied Chinese name, 2026-10-18."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Haokai Guan",
+      "before": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null,
+        "graduation_year": 2026
+      },
+      "after": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null,
+        "graduation_year": 2026,
+        "name_zh": "管浩凯"
+      },
+      "source": "User-supplied Chinese name, 2026-10-18."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "靳凌熙",
+      "before": {
+        "name": "靳凌熙",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      },
+      "after": {
+        "name": "Lingxi Jin",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "靳凌熙"
+      },
+      "source": "User authorized standard pinyin; given-name-first style matches existing names. Chinese source retained."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "韩卓廷",
+      "before": {
+        "name": "韩卓廷",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      },
+      "after": {
+        "name": "Zhuoting Han",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "韩卓廷"
+      },
+      "source": "User authorized standard pinyin; given-name-first style matches existing names. Chinese source retained."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "刘耜源",
+      "before": {
+        "name": "刘耜源",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10"
+      },
+      "after": {
+        "name": "Siyuan Liu",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "刘耜源"
+      },
+      "source": "User authorized standard pinyin; given-name-first style matches existing names. Chinese source retained."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "王梓淇",
+      "before": {
+        "name": "王梓淇",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 3,
+        "study_year_as_of": "2026-10"
+      },
+      "after": {
+        "name": "Ziqi Wang",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 3,
+        "study_year_as_of": "2026-10",
+        "name_zh": "王梓淇"
+      },
+      "source": "User authorized standard pinyin; given-name-first style matches existing names. Chinese source retained."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Haorun Lv",
+      "before": {
+        "name": "Haorun Lv",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "entry_route": "direct",
+        "name_zh": "吕昊润"
+      },
+      "after": {
+        "name": "Haorun Lv",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/31_LvHaorun.jpg",
+        "entry_route": "direct",
+        "name_zh": "吕昊润",
+        "responsive": false
+      },
+      "source": "User identified attached portrait as Haorun Lv. File copied byte-for-byte; no cropping, retouching or generated substitute. Original 70 KiB source used directly, without separate responsive derivatives."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Shichao Zhong",
+      "before": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": "Joined Shanghai Municipal Civil Affairs Bureau",
+        "graduation_year": 2025
+      },
+      "after": {
+        "name": "Shichao Zhong",
+        "degree": "Master Students",
+        "since": 2022,
+        "coadvisor": null,
+        "research": "RRAM reliability",
+        "img": "/images/people/16_ZhongShichao.jpg",
+        "destination": "Joined Shanghai Municipal People's Government",
+        "graduation_year": 2025
+      },
+      "source": "User explicitly restored exact destination text, 2026-10-18; supersedes Civil Affairs Bureau wording."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Yading Yi",
+      "before": {
+        "name": "Yading Yi",
+        "degree": "Ph.D. Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "伊亚玎"
+      },
+      "after": {
+        "name": "Yading Yi",
+        "degree": "Ph.D. Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/32_YiYading.jpg",
+        "name_zh": "伊亚玎",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Jiashuo Han",
+      "before": {
+        "name": "Jiashuo Han",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "entry_route": "direct",
+        "name_zh": "韩嘉烁"
+      },
+      "after": {
+        "name": "Jiashuo Han",
+        "degree": "Ph.D. Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/33_HanJiashuo.jpg",
+        "entry_route": "direct",
+        "name_zh": "韩嘉烁",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Xiuqi Sui",
+      "before": {
+        "name": "Xiuqi Sui",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "隋秀琦"
+      },
+      "after": {
+        "name": "Xiuqi Sui",
+        "degree": "Master Students",
+        "since": 2024,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/34_SuiXiuqi.jpg",
+        "name_zh": "隋秀琦",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Qiyu Wang",
+      "before": {
+        "name": "Qiyu Wang",
+        "degree": "Master Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "name_zh": "王麒瑜"
+      },
+      "after": {
+        "name": "Qiyu Wang",
+        "degree": "Master Students",
+        "since": 2026,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/35_WangQiyu.jpg",
+        "name_zh": "王麒瑜",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Lingxi Jin",
+      "before": {
+        "name": "Lingxi Jin",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "靳凌熙"
+      },
+      "after": {
+        "name": "Lingxi Jin",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/36_JinLingxi.jpg",
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "靳凌熙",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Zhuoting Han",
+      "before": {
+        "name": "Zhuoting Han",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "韩卓廷"
+      },
+      "after": {
+        "name": "Zhuoting Han",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/37_HanZhuoting.jpg",
+        "study_year": 4,
+        "study_year_as_of": "2026-10",
+        "name_zh": "韩卓廷",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "people",
+      "name": "Ziqi Wang",
+      "before": {
+        "name": "Ziqi Wang",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "study_year": 3,
+        "study_year_as_of": "2026-10",
+        "name_zh": "王梓淇"
+      },
+      "after": {
+        "name": "Ziqi Wang",
+        "degree": "Undergraduate Students",
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": "/images/people/38_WangZiqi.jpg",
+        "study_year": 3,
+        "study_year_as_of": "2026-10",
+        "name_zh": "王梓淇",
+        "responsive": false
+      },
+      "source": "User supplied seven named portraits in Downloads, 2026-10-18. Identity matched by supplied filename and confirmed roster spelling; no facial identification. Bytes unchanged; no EXIF/GPS metadata; use original without invented srcset."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Hairuo Lu",
+      "before": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg",
+        "destination": null,
+        "graduation_year": 2026
+      },
+      "after": {
+        "name": "Hairuo Lu",
+        "degree": "Master Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM chip and system design",
+        "img": "/images/people/17_LuHairuo.jpg",
+        "destination": "Joined China Mobile Research Institute",
+        "graduation_year": 2026
+      },
+      "source": "User-supplied workplace, 2026-10-18. Haokai Guan role and Shanghai location explicitly supplied; no seniority inferred. Employer English naming checked against official organization pages; personal employment is based on user confirmation."
+    },
+    {
+      "kind": "update",
+      "collection": "alumni",
+      "name": "Haokai Guan",
+      "before": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": null,
+        "graduation_year": 2026,
+        "name_zh": "管浩凯"
+      },
+      "after": {
+        "name": "Haokai Guan",
+        "degree": null,
+        "since": null,
+        "coadvisor": null,
+        "research": "",
+        "img": null,
+        "destination": "Joined YMTC in Shanghai (Digital IC Design)",
+        "graduation_year": 2026,
+        "name_zh": "管浩凯"
+      },
+      "source": "User-supplied workplace, 2026-10-18. Haokai Guan role and Shanghai location explicitly supplied; no seniority inferred. Employer English naming checked against official organization pages; personal employment is based on user confirmation."
+    }
+  ],
+  "people_order": [
+    "Zhuohua Tang",
+    "Jiaqi Li",
+    "Ao Shi",
+    "Kexun Li",
+    "Hao Ai",
+    "Lianliang Wu",
+    "Nan Tang",
+    "Yading Yi",
+    "Shiyang Li",
+    "Yi Xiao",
+    "Siyuan Chen",
+    "Guangjin Li",
+    "Haobin Shang",
+    "Kaihuai Xie",
+    "Binghuan Zeng",
+    "Yuxiang Jia",
+    "Haorun Lv",
+    "Jiashuo Han",
+    "Kefan Tao",
+    "Yonghao Jiao",
+    "Yang Song",
+    "Wenfu Hu",
+    "Xiuqi Sui",
+    "Xu Yan",
+    "Qiyu Wang",
+    "Lingxi Jin",
+    "Zhuoting Han",
+    "Siyuan Liu",
+    "Ziqi Wang"
+  ],
+  "alumni_order": [
+    "Wensheng Shen",
+    "Runze Han",
+    "Yachen Xiang",
+    "Yulin Feng",
+    "Xiangxiang Ding",
+    "Yizhou Zhang",
+    "Guihai Yu",
+    "Lixia Han",
+    "Ruiyi Li",
+    "Haozhang Yang",
+    "Shiyue Song",
+    "Shichao Zhong",
+    "Yiyang Chen",
+    "Ruiqi Chen",
+    "Hairuo Lu",
+    "Haokai Guan"
+  ],
+  "teacher_changes": {
+    "exclude": [
+      "Zheng Zhou"
+    ],
+    "retain_dual_role": [
+      "Yulin Feng"
+    ]
+  },
+  "confirmed_spellings": {
+    "Jiao Yonghou": "Yonghao Jiao",
+    "Yi yangding / 伊亚玎": "Yading Yi"
+  },
+  "display_policy": {
+    "names": "Existing given-name-first English style, case and spacing normalized; unknown Chinese characters are not invented.",
+    "alumni": "Group by graduation year. Each row contains name and destination only; missing destination left blank. Prior member fields retained in source data.",
+    "destinations": "All 16 alumni now have user-supplied or retained historical destinations. No employment seniority inferred."
+  },
+  "followup_media": {
+    "person": "Haorun Lv",
+    "file": "images/people/31_LvHaorun.jpg",
+    "sha256": "783eb50762cc1354f9bc8d3b001b825c6feaef06b1fc91d056b52d3abd53a65a",
+    "source": "User attachment 2026-10-18",
+    "unchanged_bytes": true
+  },
+  "agency_name_reference": "https://english.shanghai.gov.cn/en-InnovationPolicies/20260629/a5299ae328074d50a633252b050f4016.html",
+  "followup_media_batch": [
+    {
+      "person": "Yading Yi",
+      "source_filename": "Yiyading.jpg",
+      "file": "images/people/32_YiYading.jpg",
+      "sha256": "27b54240c709601fc2afb6e07e3e3dbc59c95b480bb73b4c96567e19382ec951",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Jiashuo Han",
+      "source_filename": "HanJiashuo.jpg",
+      "file": "images/people/33_HanJiashuo.jpg",
+      "sha256": "698275ae3d61521afef679f25caa11fcdb936f6ab5653c28e1bf92b91fbd2314",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Xiuqi Sui",
+      "source_filename": "SuiXiuqi.jpg",
+      "file": "images/people/34_SuiXiuqi.jpg",
+      "sha256": "cf08db9e93045dcfebd3b4b8b4a05757ead61ae37b09ff310f8ae205750c3d86",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Qiyu Wang",
+      "source_filename": "WangQiyu.jpg",
+      "file": "images/people/35_WangQiyu.jpg",
+      "sha256": "55e512bb5ea6cba7f1721fc4d3d2a7d287a927d7b0479094992515cc02f3476c",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Lingxi Jin",
+      "source_filename": "JinLingxi.jpg",
+      "file": "images/people/36_JinLingxi.jpg",
+      "sha256": "1bcebf91364e55d1e5469d0799704429d0e52de65b2891e738f5d0e83a556440",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Zhuoting Han",
+      "source_filename": "HanZhuoting.jpg",
+      "file": "images/people/37_HanZhuoting.jpg",
+      "sha256": "bb77f3de9d9c2f60bc5448e3bbb1819822e7677fbbe91a635d8f2cc18650922f",
+      "unchanged_bytes": true
+    },
+    {
+      "person": "Ziqi Wang",
+      "source_filename": "WangZiqi.jpg",
+      "file": "images/people/38_WangZiqi.jpg",
+      "sha256": "1255d22cd14d367b84d2f7eafb8e4b8955f614be04da76a3f0f9cc2233bd73c8",
+      "unchanged_bytes": true
+    }
+  ]
+}

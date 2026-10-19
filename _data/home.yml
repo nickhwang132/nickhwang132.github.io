@@ -1,0 +1,9 @@
+# Initial preview uses the three latest papers in the existing verified content baseline.
+# This selection awaits the maintainer's preferred highlights; it is not a new achievement claim.
+recent_publications:
+  - id: paper-1
+    venue: VLSI Technology and Circuits
+  - id: paper-2
+    venue: IEEE Transactions on Computers
+  - id: paper-3
+    venue: Japanese Journal of Applied Physics

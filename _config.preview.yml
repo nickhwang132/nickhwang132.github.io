@@ -1,0 +1,3 @@
+# Local URL override. Production URL and domain remain in _config.yml.
+url: http://127.0.0.1:4173
+baseurl: ""
