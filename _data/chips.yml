@@ -11,24 +11,23 @@
         "Single-transistor pixels"
       ],
       "description": "This 128 × 128 image sensor uses single-transistor pixels fabricated in 22 nm FDSOI technology. Optical sensing beneath the buried oxide and voltage-controlled photoresponse enable in-pixel multiplication. The chip supports imaging, multiply-accumulate operations and ReLU-based feature extraction, with a decoupled exposure, sampling and readout pipeline for intelligent imaging and image-compression front ends.",
-      "image": "/images/chips/1t-fdsoi-sensor/figure-7.jpg",
-      "image_width": 1068,
-      "image_height": 837,
-      "image_alt": "1T FDSOI sensor die micrograph, energy breakdown and optical test setup",
-      "caption": "Die micrograph, energy breakdown and optical test setup.",
+      "image": "/images/chips/1t-fdsoi-sensor/die-20261020.jpg",
+      "image_width": 1920,
+      "image_height": 1080,
+      "image_alt": "Die micrograph of the 1T FDSOI image sensor",
+      "caption": "1T FDSOI image sensor die micrograph.",
       "designers": [
         {
           "names": [
             "Guihai Yu",
-            "Ao Shi"
-          ],
-          "contribution": "Architecture, circuit and layout design"
-        },
-        {
-          "names": [
-            "Nan Tang"
-          ],
-          "contribution": "Test and system validation"
+            "Ao Shi",
+            "Kexun Li",
+            "Jiaqi Li",
+            "Haozhang Yang",
+            "Nan Tang",
+            "Yi Xiao",
+            "Lianliang Wu"
+          ]
         }
       ],
       "paper_ids": [
