@@ -100,26 +100,54 @@ check.call(papers.map { |p| p['url'] }.uniq.size == papers.size, 'Duplicate publ
 normal = lambda { |text| text.gsub(/\s+/, ' ').strip }
 html_files = Dir.glob(File.join(SITE, '**/*.html'))
 check.call(!html_files.empty?, 'Build output missing')
-routes = ['', 'publications', 'people', 'courses', 'service', 'chips', 'software']
+routes = ['', 'publications', 'people', 'courses', 'chips', 'software']
 routes.each { |route| check.call(File.file?(File.join(SITE, route, 'index.html')), "Missing route /#{route}/") }
+check.call(!File.file?(File.join(SITE, 'service/index.html')), 'Removed Service page should not be published')
 if File.file?(File.join(SITE, 'publications/index.html'))
   pubs = Nokogiri::HTML(File.read(File.join(SITE, 'publications/index.html')))
-  items = pubs.css('.publication-item')
+  items = pubs.css('.publication-item[data-paper-id]')
   check.call(items.size == papers.size, 'Rendered publication count differs')
   check.call(items.map { |node| node['data-paper-id'] }.sort == selection.sort, 'Rendered IDs differ from approved selection')
   check.call(pubs.css('[data-corresponding], [data-first-author], .author-role, .corresponding-label').empty?, 'Identity labels must not be displayed')
   check.call(pubs.css('#preprints').empty?, 'Unreviewed preprints should remain source-only')
   expected = papers.map { |p| normal.call(Nokogiri::HTML.fragment(Kramdown::Document.new(p['citation'], input: 'GFM').to_html).text) }
-  actual = items.map { |item| normal.call(item.text) }
+  # Reconstruct the original citation order to verify every author and issue detail
+  # survived the title-first presentation, without rewriting bibliography data.
+  actual = items.map do |item|
+    title = item.at_css('.publication-title')
+    if title
+      normal.call([item.at_css('.publication-authors').text, "#{title.text.strip}.", item.at_css('.publication-details').text].join(' '))
+    else
+      normal.call(item.text)
+    end
+  end
   check.call(expected.sort == actual.sort, 'Rendered citations differ from source data')
   papers.each do |paper|
     item = pubs.at_css("[data-paper-id='#{paper['id']}']")
     check.call(item && item['data-year'].to_i == (paper['group_year'] || paper['year']), "Wrong confirmed year group: #{paper['id']}")
+    check.call(item&.at_css('.publication-title a')&.[]('href') == paper['url'], "Missing title link: #{paper['id']}")
   end
   check.call(pubs.at_css('.publications-toolbar')&.key?('hidden'), 'Search controls should stay hidden without JavaScript')
   check.call(items.none? { |item| item.key?('hidden') }, 'Publications hidden before JavaScript')
   full_text = normal.call(pubs.text)
-  ['conference_programs', 'talks', 'books', 'patents', 'patent_applications'].each do |kind|
+  program_ids = YAML.load_file(File.join(ROOT, '_data/publication_display.yml')).fetch('yearly_program_ids')
+  check.call(program_ids == ['program-mba-2026'], 'Program display scope differs from explicit approval')
+  rendered_programs = pubs.css('.publication-item[data-program-id]')
+  check.call(rendered_programs.map { |node| node['data-program-id'] }.sort == program_ids.sort, 'Approved program missing or duplicated')
+  program_ids.each do |id|
+    record = data['conference_programs'].find { |row| row['id'] == id }
+    node = pubs.at_css("[data-program-id='#{id}']")
+    check.call(node && node.ancestors.any? { |ancestor| ancestor['class'] == 'publication-year-group' && ancestor['data-year'] == record['year'].to_s }, "Program not in approved year: #{id}")
+    check.call(node&.at_css('.publication-title a')&.[]('href') == record['url'], "Program source link lost: #{id}")
+    if node
+      citation = normal.call([node.at_css('.publication-authors').text, "#{node.at_css('.publication-title').text.strip}.", node.at_css('.publication-details').text].join(' '))
+      expected_citation = normal.call(Nokogiri::HTML.fragment(Kramdown::Document.new(record['citation'].sub('; conference program record', ''), input: 'GFM').to_html).text)
+      check.call(citation == expected_citation, "Program bibliographic details changed: #{id}")
+    end
+  end
+  check.call(pubs.css('.publication-item').size == papers.size + program_ids.size, 'Yearly list count differs')
+  check.call(pubs.at_css('#books-and-book-chapters')&.text == 'Books', 'Requested Books label missing')
+  ['talks', 'books', 'patents', 'patent_applications'].each do |kind|
     data[kind].each do |item|
       expected_text = normal.call(Nokogiri::HTML.fragment(Kramdown::Document.new(item['citation'], input: 'GFM').to_html).text)
       check.call(full_text.include?(expected_text), "Missing rendered #{kind} citation")
@@ -221,10 +249,13 @@ if File.file?(File.join(SITE, 'people/index.html'))
     next unless row
     expected_text = [person['name'],person['destination']].compact.join(' ')
     check.call(row.text.gsub(/\s+/, '') == expected_text.gsub(/\s+/, ''), "Alumni row must contain only name and destination: #{person['name']}")
-    check.call(row.ancestors.any? { |node| node['data-graduation-year'] == person['graduation_year'].to_s }, "Wrong graduation year for #{person['name']}")
   end
+  check.call(people.css('#graduates [data-graduation-year], #graduates .alumni-year').empty?, 'Unconfirmed alumni years must not be rendered')
+  check.call(people.css('#graduates h3').none? { |node| node.text.strip.match?(/\A\d{4}\z/) }, 'Alumni year heading remains visible')
+  check.call(people.css('[data-alumnus]').map { |node| node['data-alumnus'] } == member_data['alumni'].map { |person| person['name'] }, 'Alumni source order changed')
   check.call(!people.text.include?('Zheng Zhou') && !people.text.include?('秦雄昊'), 'Explicitly excluded team member remains visible')
-  check.call(people.at_css('.people-scope').text.include?('Yulin Feng') && !people.css('[data-alumnus="Yulin Feng"]').empty?, 'Confirmed dual faculty/alumni role lost')
+  people_page = YAML.safe_load(File.read(File.join(ROOT, '_pages/people.html')).split('---')[1])
+  check.call(people_page['scope'].include?('Yulin Feng') && !people.css('[data-alumnus="Yulin Feng"]').empty?, 'Confirmed faculty metadata/alumni role lost')
   media = latest_updates.fetch('followup_media')
   check.call(Digest::SHA256.file(File.join(ROOT, media['file'])).hexdigest == media['sha256'], 'Supplied portrait bytes changed')
   haorun_image = people.at_css('[data-member="Haorun Lv"] img')
@@ -294,7 +325,7 @@ Dir.glob(File.join(SITE, '**/*.css')).each do |file|
     check.call(File.file?(pair[0]), "Missing CSS target #{value}") if pair
   end
 end
-['archive', 'markdown_generator', 'scripts', 'docs', 'HANDOFF.md', 'README.md', 'Gemfile.lock', '.bundle', '.local', 'vendor'].each do |path|
+['archive', 'markdown_generator', 'scripts', 'docs', 'AGENTS.md', 'HANDOFF.md', 'README.md', 'Gemfile.lock', '.bundle', '.local', 'vendor'].each do |path|
   check.call(!File.exist?(File.join(SITE, path)), "Private or maintenance files published: #{path}")
 end
 public_text = html_files.map { |file| Nokogiri::HTML(File.read(file)).text }.join(' ')
