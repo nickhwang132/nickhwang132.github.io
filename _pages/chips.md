@@ -2,5 +2,8 @@
 permalink: /chips/
 title: "Chips"
 layout: academic
-empty_section: true
+compact_header: true
+page_kind: chips
 ---
+
+{% include chips-list.html %}

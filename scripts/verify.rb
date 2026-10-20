@@ -157,8 +157,16 @@ end
 if File.file?(File.join(SITE, 'index.html'))
   home = Nokogiri::HTML(File.read(File.join(SITE, 'index.html')))
   check.call(home.css('h1').size == 1, 'Homepage needs one main heading')
-  check.call(home.css('.news-list li').size == 16, 'Historical news lost')
-  check.call(home.css('.group-gallery__slide').size == 4, 'Group photograph lost')
+  content_update = JSON.parse(File.read(File.join(ROOT, 'docs/content-updates-20261020.json')))
+  news_source = YAML.load_file(File.join(ROOT, '_data/updates.yml')).fetch('items')
+  gallery_source = YAML.load_file(File.join(ROOT, '_data/news.yml')).fetch('news')
+  check.call(news_source == content_update['news_additions'] + content_update['news_before'], 'News differs from user additions plus preserved history')
+  check.call(gallery_source == content_update['gallery_additions'] + content_update['gallery_before'], 'Gallery differs from supplied additions plus preserved history')
+  check.call(home.css('.news-list li').size == 18, 'News entries lost or duplicated')
+  check.call(home.css('.group-gallery__slide').size == 6, 'Group photograph lost')
+  content_update.fetch('assets').each do |asset|
+    check.call(Digest::SHA256.file(File.join(ROOT, asset['file'])).hexdigest == asset['sha256'], "Newly supplied image changed: #{asset['file']}")
+  end
   check.call(home.css('.group-gallery__slide[hidden]').empty?, 'Photographs hidden before JavaScript')
 end
 if File.file?(File.join(SITE, 'people/index.html'))
@@ -213,6 +221,12 @@ if File.file?(File.join(SITE, 'people/index.html'))
   ['people', 'alumni'].each do |kind|
     expected_members[kind].sort_by! { |person| latest_updates.fetch(kind == 'people' ? 'people_order' : 'alumni_order').index(person['name']) }
   end
+  content_update = JSON.parse(File.read(File.join(ROOT, 'docs/content-updates-20261020.json')))
+  content_update.fetch('member_updates').each do |op|
+    index = expected_members['people'].index { |person| person['name'] == op['name'] }
+    check.call(index && expected_members['people'][index] == op['before'], 'New portrait update lacks the preserved member record')
+    expected_members['people'][index] = op['after'] if index
+  end
   member_data = YAML.load_file(File.join(ROOT, '_data/people.yml'))
   check.call(member_data == expected_members, 'Member data differs from frozen baseline plus user-confirmed updates')
   check.call(people.css('[data-member]').size == 29, 'Current student count differs from confirmed 29')
@@ -221,7 +235,8 @@ if File.file?(File.join(SITE, 'people/index.html'))
   check.call(names.uniq.size == names.size, 'Student appears in more than one current status')
   member_baseline['people'].each do |person|
     preserved = (member_data['people'] + member_data['alumni']).find { |p| p['name'] == person['name'] }
-    check.call(preserved && preserved['img'] == person['img'] && File.file?(File.join(ROOT, person['img'])), "Original portrait association lost: #{person['name']}")
+    expected_photo = (expected_members['people'] + expected_members['alumni']).find { |item| item['name'] == person['name'] }
+    check.call(preserved && preserved['img'] == expected_photo['img'] && File.file?(File.join(ROOT, person['img'])), "Original portrait file or documented association lost: #{person['name']}")
   end
   expected_members['people'].each do |person|
     card = people.css('[data-member]').find { |node| node['data-member'] == person['name'] }
@@ -274,6 +289,24 @@ if File.file?(File.join(SITE, 'people/index.html'))
   check.call(member_data['people'].select { |p| !p['img'] }.map { |p| p['name'] } == ['Siyuan Liu'], 'Remaining photo gap differs from supplied seven portraits')
   check.call(people.css('#undergraduate-students [data-member]').map { |node| node['data-member'] }.sort == ['Lingxi Jin', 'Zhuoting Han', 'Siyuan Liu', 'Ziqi Wang'].sort, 'Authorized undergraduate pinyin names differ')
 
+end
+if File.file?(File.join(SITE, 'chips/index.html'))
+  chips_doc = Nokogiri::HTML(File.read(File.join(SITE, 'chips/index.html')))
+  chips = YAML.load_file(File.join(ROOT, '_data/chips.yml')).fetch('chips')
+  check.call(chips.map { |chip| chip['id'] } == ['1t-fdsoi-sensor', 'rca-adc', 'secure-rram-cim'], 'Chip intake scope differs from supplied three chips')
+  check.call(chips_doc.css('[data-chip]').size == 3, 'Chip missing or duplicated')
+  chips.each do |chip|
+    node = chips_doc.at_css(%Q([data-chip="#{chip['id']}"]))
+    check.call(node && node.at_css('img')['src'] == chip['image'], "Chip image mismatch: #{chip['id']}")
+    chip['designers'].flat_map { |group| group['names'] }.each { |name| check.call(node.text.include?(name), "Designer missing: #{name}") }
+    chip['paper_ids'].each do |id|
+      paper = data['publications'].find { |item| item['id'] == id }
+      check.call(paper && selection.include?(id), "Chip reference is absent from the approved paper selection: #{id}")
+      link = node.at_css(%Q([data-chip-paper="#{id}"] a))
+      check.call(link && link['href'] == paper['url'] && link.text == paper['title'], "Chip paper title or DOI differs from reviewed source: #{id}")
+    end
+  end
+  check.call(!chips_doc.text.match?(/待确认|待补|TBD|2960|285\s*MHz|38%|3\.28/), 'Unconfirmed placeholders or incomplete quantitative claims on Chips page')
 end
 software = Nokogiri::HTML(File.read(File.join(SITE, 'software/index.html')))
 check.call(software.at_css('.software-reference')&.text&.include?('CoMN:'), 'Missing CoMN reference')

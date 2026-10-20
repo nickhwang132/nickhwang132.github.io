@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-20",
+  "authorization": "User supplied the portrait, graduation and DAC photographs and two Word files covering three chips, and requested the website update.",
+  "member_updates": [
+    {
+      "name": "Lianliang Wu",
+      "before": {
+        "name": "Lianliang Wu",
+        "degree": "Ph.D. Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/14_WuLianliang.jpg"
+      },
+      "after": {
+        "name": "Lianliang Wu",
+        "degree": "Ph.D. Students",
+        "since": 2023,
+        "coadvisor": null,
+        "research": "CIM circuit and chip design",
+        "img": "/images/people/lianliang-wu-2026.jpg",
+        "responsive": false
+      }
+    }
+  ],
+  "news_before": [
+    {
+      "date": "Jul/2025",
+      "text": "Congratulations to **Haozhang Yang** and **Shiyue Song** on their successful doctoral degree graduation from our research group! Wishing them great success in their future careers."
+    },
+    {
+      "date": "Jun/2025",
+      "text": "Paper is accepted to **VLSI Technology and Circuits**. Congratulations to **Nan Tang** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Apr/2025",
+      "text": "Paper is accepted to **IEEE Transactions on Computers**. Congratulations to **Lixia Han** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Mar/2025",
+      "text": "Paper is accepted to **Japanese Journal of Applied Physics**. Congratulations to **Zhuohua Tang** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Mar/2025",
+      "text": "Paper is accepted to **IEEE-EDTM**. Congratulations to **Ruiqi Chen** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Feb/2025",
+      "text": "Paper is accepted to **Science China Information Sciences**. Congratulations to **Lixia Han** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Dec/2024",
+      "text": "Paper is accepted to **IEEE-TCAS-I**. Congratulations to **Yang Feng** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Sep/2024",
+      "text": "Paper is accepted to **IEDM**. Congratulations to **Yiyang Chen** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Sep/2024",
+      "text": "Paper is accepted to **IEEE-TCAS-I**. Congratulations to **Ao Shi** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Jul/2024",
+      "text": "Congratulations to **Lixia Han**, **Guihai Yu**, and **Ruiyi Li** on successfully graduating with their doctoral degrees from our research group! Best wishes for your future endeavors."
+    },
+    {
+      "date": "May/2024",
+      "text": "Paper is accepted to **IEEE-ISCAS**. Congratulations to **Ao Shi** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Mar/2024",
+      "text": "Paper is accepted to **DATE**. Congratulations to **Lixia Han** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Feb/2024",
+      "text": "Paper is accepted to **Science Advances**. Congratulations to **Ruiqi Chen** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Feb/2024",
+      "text": "Paper is accepted to **Nature Communications**. Congratulations to **Yulin Feng** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Jan/2024",
+      "text": "Paper is accepted to **TCAD**. Congratulations to **Lixia Han** and all the collaborators and sponsors."
+    },
+    {
+      "date": "Jan/2024",
+      "text": "Paper is accepted to **IEEE-EDL**. Congratulations to **Yiyang Chen** and all the collaborators and sponsors."
+    }
+  ],
+  "news_additions": [
+    {
+      "date": "2026",
+      "text": "Congratulations to our **2026 graduates**! Wishing them every success in their next chapter."
+    },
+    {
+      "date": "2026",
+      "text": "**Siyuan Chen** presented our research at the **63rd Design Automation Conference (DAC 2026)**."
+    }
+  ],
+  "gallery_before": [
+    {
+      "image": "/images/news4.jpg",
+      "width": 7008,
+      "height": 3942,
+      "caption": "Celebrating our 2025 research group graduation!",
+      "alt": "2025 Graduation celebration"
+    },
+    {
+      "image": "/images/news3.jpg",
+      "width": 1706,
+      "height": 960,
+      "caption": "Nan Tang presenting at 2025 VLSI.",
+      "alt": "VLSI presentation"
+    },
+    {
+      "image": "/images/news2.jpg",
+      "width": 1701,
+      "height": 957,
+      "caption": "Yiyang Chen presenting at 2024 IEDM.",
+      "alt": "IEDM presentation"
+    },
+    {
+      "image": "/images/news1.jpg",
+      "width": 6048,
+      "height": 3402,
+      "caption": "Celebrating our 2024 research group graduation!",
+      "alt": "2024 Graduation celebration"
+    }
+  ],
+  "gallery_additions": [
+    {
+      "image": "/images/news/graduation-2026.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "Celebrating our 2026 research group graduation!",
+      "alt": "Research group celebrating the 2026 graduation at Peking University",
+      "responsive": false
+    },
+    {
+      "image": "/images/news/siyuan-chen-dac-2026.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "Siyuan Chen presenting at DAC 2026.",
+      "alt": "Siyuan Chen presenting at the 63rd Design Automation Conference",
+      "responsive": false
+    }
+  ],
+  "assets": [
+    {
+      "file": "images/people/lianliang-wu-2026.jpg",
+      "sha256": "5a72d44ec6d53c63f9f3b772915b006b349d73fd9423e6f9782c4da67d79e749",
+      "width": 1005,
+      "height": 1455,
+      "source_sha256": "e60ebdd8fd5596d42207cf20d965994ce725c3d79a348f6b6ec1a12c0f007ecf",
+      "processing": "Removed JPEG EXIF metadata only; original compressed scan and decoded pixels unchanged; original retained in intake archive."
+    },
+    {
+      "file": "images/news/graduation-2026.jpg",
+      "sha256": "d85f497c4be23433daf7a22844ecac6275eb86b66cd142e227f52ecb7f379ee2",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "images/news/siyuan-chen-dac-2026.jpg",
+      "sha256": "d2a0c4b56f7fd34c14f4c81c4240cfe776dc3777152085886d219a88aa844d1e",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "file": "images/chips/1t-fdsoi-sensor/figure-7.jpg",
+      "sha256": "7ab543d1559ea953bb452c4582092ffa3df278d93cd3a6c4f2f2ebf9a9e9fe55",
+      "width": 1068,
+      "height": 837
+    },
+    {
+      "file": "images/chips/rca-adc/die.png",
+      "sha256": "2cd19b270d7ea5bf474ffd8479029fa630f67e9588c3cd71024d94aa714840f6",
+      "width": 452,
+      "height": 411
+    },
+    {
+      "file": "images/chips/secure-rram-cim/die.png",
+      "sha256": "085c9647a3cc2e36bd4a6d688a07bd2605947444fc4dcf2409ad900e4d8d610c",
+      "width": 827,
+      "height": 900
+    }
+  ],
+  "notes": [
+    "Original portrait remains at images/people/14_WuLianliang.jpg.",
+    "News dates use the supplied year only; no month, exact date, graduate count or degree is inferred.",
+    "Chip raw Word files and EMF originals are archived outside the public Git checkout.",
+    "The user explicitly confirmed FDSOI image/text public scope and the supplied designer order on 2026-10-20.",
+    "The web portrait omits camera/serial/comment EXIF metadata; the original remains unchanged in the private intake archive."
+  ]
+}
