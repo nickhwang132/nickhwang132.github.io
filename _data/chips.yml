@@ -1,0 +1,100 @@
+{
+  "chips": [
+    {
+      "id": "1t-fdsoi-sensor",
+      "short_name": "1T FDSOI Sensor",
+      "name": "1T FDSOI Image Sensor with In-pixel Computing",
+      "category": "In-pixel sensing and computing",
+      "facts": [
+        "22 nm FDSOI",
+        "128 × 128 pixels",
+        "Single-transistor pixels"
+      ],
+      "description": "This 128 × 128 image sensor uses single-transistor pixels fabricated in 22 nm FDSOI technology. Optical sensing beneath the buried oxide and voltage-controlled photoresponse enable in-pixel multiplication. The chip supports imaging, multiply-accumulate operations and ReLU-based feature extraction, with a decoupled exposure, sampling and readout pipeline for intelligent imaging and image-compression front ends.",
+      "image": "/images/chips/1t-fdsoi-sensor/figure-7.jpg",
+      "image_width": 1068,
+      "image_height": 837,
+      "image_alt": "1T FDSOI sensor die micrograph, energy breakdown and optical test setup",
+      "caption": "Die micrograph, energy breakdown and optical test setup.",
+      "designers": [
+        {
+          "names": [
+            "Guihai Yu",
+            "Ao Shi"
+          ],
+          "contribution": "Architecture, circuit and layout design"
+        },
+        {
+          "names": [
+            "Nan Tang"
+          ],
+          "contribution": "Test and system validation"
+        }
+      ],
+      "paper_ids": [
+        "paper-1"
+      ]
+    },
+    {
+      "id": "rca-adc",
+      "short_name": "RCA ADC",
+      "name": "ADC with Residual Charge Accumulation",
+      "category": "Mixed-signal readout for computing-in-memory",
+      "facts": [
+        "180 nm CMOS",
+        "Silicon received Dec 2022"
+      ],
+      "description": "An ADC and post-processing circuit designed for NVM-based computing-in-memory neural networks. Residual charge accumulation sums quantized partial results in the charge domain to reduce quantization error. Charge reset in the integrate-and-fire converter, together with sample-and-hold, current subtraction and bidirectional counting, improves readout efficiency. Neural-network evaluation uses measured results from the fabricated chip.",
+      "image": "/images/chips/rca-adc/die.png",
+      "image_width": 452,
+      "image_height": 411,
+      "image_alt": "Die micrograph of the ADC chip with residual charge accumulation",
+      "caption": "ADC test-chip die micrograph.",
+      "designers": [
+        {
+          "names": [
+            "Yizhou Zhang",
+            "Ao Shi"
+          ]
+        }
+      ],
+      "paper_ids": [
+        "paper-8",
+        "paper-9"
+      ]
+    },
+    {
+      "id": "secure-rram-cim",
+      "short_name": "Secure RRAM CIM",
+      "name": "Unclonable Double-Encryption RRAM CIM",
+      "category": "Secure computing-in-memory",
+      "facts": [
+        "28 nm RRAM",
+        "Silicon received Dec 2023"
+      ],
+      "description": "This 28 nm RRAM computing-in-memory macro combines in-situ double encryption with matrix-vector multiplication for confidential AI. The sign and magnitude of neural-network weights use separate keys, with in-situ decryption within a computing cycle. MOSFET variability provides a device-specific identity, adding a hardware authentication mechanism to encrypted computation.",
+      "image": "/images/chips/secure-rram-cim/die.png",
+      "image_width": 827,
+      "image_height": 900,
+      "image_alt": "Die micrograph of the 28 nm RRAM double-encryption computing-in-memory macro",
+      "caption": "28 nm RRAM computing-in-memory die micrograph.",
+      "designers": [
+        {
+          "names": [
+            "Yiyang Chen",
+            "Ao Shi",
+            "Lianliang Wu",
+            "Hairuo Lu",
+            "Yizhou Zhang",
+            "Lixia Han",
+            "Haozhang Yang"
+          ]
+        }
+      ],
+      "paper_ids": [
+        "paper-7",
+        "paper-66"
+      ]
+    }
+  ]
+}

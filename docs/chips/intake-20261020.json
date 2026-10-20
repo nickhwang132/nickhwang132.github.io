@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "id": "1t-fdsoi-sensor",
+      "document": "../../originals/fdsoi.docx",
+      "document_sha256": "4b6bfec2a73bf8be76e4e870bdb3c0ee1d738f14b0b691f01712b038fc2d1bd7",
+      "section": "Single-chip information section, pages 2–4",
+      "original_media": "image1.jpg",
+      "original_media_sha256": "7ab543d1559ea953bb452c4582092ffa3df278d93cd3a6c4f2f2ebf9a9e9fe55",
+      "web_assets_directory": "images/chips/1t-fdsoi-sensor"
+    },
+    {
+      "id": "rca-adc",
+      "document": "../../originals/chip-introduction.docx",
+      "document_sha256": "3403daa372a6f5d15fe4a0633874501c83de0bc754992b301e50f7c3ce6a0656",
+      "section": "First chip, pages 1–3",
+      "original_media": "image1.emf",
+      "original_media_sha256": "08acccf47d430fb4af428e85937bf4dcef744e5690e82066556e891f9c43e06a",
+      "web_assets_directory": "images/chips/rca-adc"
+    },
+    {
+      "id": "secure-rram-cim",
+      "document": "../../originals/chip-introduction.docx",
+      "document_sha256": "3403daa372a6f5d15fe4a0633874501c83de0bc754992b301e50f7c3ce6a0656",
+      "section": "Second chip, pages 4–5",
+      "original_media": "image2.emf",
+      "original_media_sha256": "f6165f5b39a7c29e250938b9bb790be655c912237d72bfd46b6b5db40504884e",
+      "web_assets_directory": "images/chips/secure-rram-cim"
+    }
+  ],
+  "rendered_pages_reviewed": {
+    "fdsoi": 4,
+    "chip-introduction": 6
+  },
+  "image_processing": {
+    "fdsoi": "Original embedded JPEG copied unchanged; complete multi-panel image retained.",
+    "rca-adc": "Die photograph extracted from rendered PDF image object 12 using pdfimages; vector overlays remain in archived EMF.",
+    "secure-rram-cim": "Die photograph extracted from rendered PDF image object 110 using pdfimages; vector overlays remain in archived EMF."
+  },
+  "wording_decisions": [
+    "English chip labels translated from the supplied names; no chip version or codename invented.",
+    "Only technology, array size and supplied silicon receipt dates are presented as concise facts.",
+    "Quantitative comparative performance and incomplete test conditions remain in original materials.",
+    "FDSOI paper year and DOI reuse the existing reviewed publication record.",
+    "Five linked papers reuse IDs in the unchanged bibliography; no publication or retention changes."
+  ],
+  "pending": [],
+  "public_scope": {
+    "confirmed_by": "user",
+    "date": "2026-10-20",
+    "scope": "FDSOI supplied images, text and designer order approved for public display. Other chip materials supplied for the website update."
+  }
+}

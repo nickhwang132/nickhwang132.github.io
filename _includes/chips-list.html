@@ -1,0 +1,27 @@
+<nav class="section-nav chip-nav" aria-label="Chip sections">
+  {% for chip in site.data.chips.chips %}<a href="#{{ chip.id }}">{{ chip.short_name }}</a>{% endfor %}
+</nav>
+<div class="chips-list">
+  {% for chip in site.data.chips.chips %}
+  <article class="chip-entry" id="{{ chip.id }}" data-chip="{{ chip.id }}" aria-labelledby="{{ chip.id }}-title">
+    <figure class="chip-figure">
+      <a href="{{ chip.image | relative_url }}" aria-label="View full-size image of {{ chip.short_name | escape }}"><img src="{{ chip.image | relative_url }}" width="{{ chip.image_width }}" height="{{ chip.image_height }}" alt="{{ chip.image_alt | escape }}" loading="lazy" decoding="async"></a>
+      <figcaption>{{ chip.caption }}</figcaption>
+    </figure>
+    <div class="chip-copy">
+      <p class="chip-category">{{ chip.category }}</p>
+      <h2 id="{{ chip.id }}-title">{{ chip.name }}</h2>
+      <ul class="chip-facts" aria-label="Chip specifications">{% for fact in chip.facts %}<li>{{ fact }}</li>{% endfor %}</ul>
+      <p class="chip-description">{{ chip.description }}</p>
+      <div class="chip-designers"><h3>Designers</h3>
+        {% for group in chip.designers %}<p>{{ group.names | join: ', ' }}{% if group.contribution %}<span>{{ group.contribution }}</span>{% endif %}</p>{% endfor %}
+      </div>
+      <div class="chip-publications"><h3>Related publications</h3><ul>
+        {% for id in chip.paper_ids %}{% assign paper = site.data.publications.publications | where: 'id', id | first %}{% assign year_text = paper.year | append: '' %}
+        <li data-chip-paper="{{ id }}"><a href="{{ paper.url }}">{{ paper.title | escape }}</a><span>{{ paper.venue }}{% unless paper.venue contains year_text %} · {{ paper.year }}{% endunless %}</span></li>
+        {% endfor %}
+      </ul></div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

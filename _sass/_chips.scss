@@ -1,0 +1,27 @@
+/* Chip descriptions, designer credits and paper links share one data source. */
+.academic-page--chips .chip-nav { font-size: var(--academic-text); font-weight: 600; gap: 12px 30px; padding: 18px 0; border-bottom: 1px solid #e8e5e1; }
+.chip-entry { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 48px; padding: 38px 0 42px; border-bottom: 1px solid #e8e5e1; scroll-margin-top: 24px; }
+.chip-entry:last-child { border-bottom: 0; padding-bottom: 0; }
+.chip-figure { display: block; align-self: start; margin: 0; }
+.chip-figure a { display: block; border: 1px solid #e8e5e1; background: #fff; padding: 12px; }
+.chip-figure img { display: block; width: 100%; height: auto; max-height: 400px; object-fit: contain; margin: 0; border-radius: 0; }
+.chip-figure figcaption { margin: 12px 0 0; font-family: inherit; font-size: var(--academic-meta); line-height: 1.6; color: #666169; }
+.chip-copy { min-width: 0; }
+.chip-category { margin: 0 0 9px; font-size: var(--academic-meta); color: #94070a; }
+.academic-page .chip-copy h2 { font-size: 29px; line-height: 1.25; margin: 0 0 16px; }
+.chip-facts { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 0; margin: 0 0 18px; color: #666169; font-size: var(--academic-meta); }
+.chip-facts li { margin: 0; }
+.chip-description { margin: 0 0 22px; font-size: var(--academic-text); line-height: 1.75; }
+.academic-page .chip-copy h3 { font-size: var(--academic-text); margin: 22px 0 10px; font-weight: 600; }
+.chip-designers p { margin: 0 0 10px; font-size: var(--academic-text); line-height: 1.65; }
+.chip-designers span, .chip-publications li > span { display: block; color: #666169; font-size: var(--academic-meta); line-height: 1.6; margin-top: 3px; }
+.chip-publications ul { padding-left: 18px; margin: 0; }
+.chip-publications li { font-size: var(--academic-detail); line-height: 1.6; margin: 0 0 13px; }
+@media (max-width: 950px) { .chip-entry { grid-template-columns: minmax(0, 290px) minmax(0, 1fr); gap: 30px; } }
+@media (max-width: 700px) {
+  .chip-entry { grid-template-columns: minmax(0, 1fr); gap: 24px; padding: 28px 0 32px; }
+  .chip-figure { width: 100%; max-width: 440px; margin: 0 auto; }
+  .chip-figure img { max-height: 350px; }
+  .academic-page .chip-copy h2 { font-size: 27px; }
+  .academic-page--chips .chip-nav { gap: 10px 20px; }
+}

@@ -45,10 +45,14 @@ The audit's bibliography hash must be updated after an intentional bibliography 
 | All formal publication review records | `docs/publications-review.json` |
 | News and group photographs | `_data/updates.yml`, `_data/news.yml` |
 | Faculty, students and alumni | `_data/people.yml` |
+| Chip descriptions, designers and paper associations | `_data/chips.yml` |
+| Chip photographs | `images/chips/<chip-id>/` |
+| Recent content changes and image hashes | `docs/content-updates-20261020.json` |
+| Chip intake provenance and public-scope confirmation | `docs/chips/intake-20261020.json` |
 | Software | `_pages/software.md` |
 | Layout and styles | `_layouts/`, `_sass/` |
 
-Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Courses and Chips keep their existing URLs pending supplied content. Service has been removed from navigation and publication; its source remains archived as an unpublished page. The remaining student photo and research-field gaps are intentionally omitted.
+Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Chips now presents three supplied chip records, with related papers linked to the existing reviewed bibliography. Raw intake Word/EMF documents are archived outside the checkout; only selected website images are public assets. Courses retains its existing URL pending supplied content. Service has been removed from navigation and publication; its source remains archived as an unpublished page. The remaining student photo and research-field gaps are intentionally omitted.
 
 Documentation, maintenance scripts, historical theme archives and local evidence are excluded from the published website. Local licensed full texts, raw source materials, machine-specific handoffs and original user files are not release assets. Keep recovery snapshots outside the checkout and restore into a separate directory.
 

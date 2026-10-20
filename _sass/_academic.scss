@@ -76,9 +76,9 @@
 .news-list strong { font-weight: 600; }
 .news-archive { font-size: 13px; color: #656569; }
 .news-archive .news-list { margin-top: 22px; }
-.group-gallery__slide { margin: 0 0 18px; }
-.group-gallery__slide img { width: 100%; height: auto; display: block; }
-.group-gallery__slide figcaption { color: #69686b; font-size: 12px; line-height: 1.6; margin-top: 12px; }
+.group-gallery__slide { display: block; margin: 0 0 18px; }
+.group-gallery__slide img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; background: #faf9f7; display: block; margin: 0; }
+.group-gallery__slide figcaption { color: #69686b; font-family: inherit; font-size: var(--academic-meta); line-height: 1.6; margin: 12px 0 0; }
 .gallery-controls { display: flex; gap: 14px; justify-content: flex-end; align-items: center; font-size: 11px; color: #77767a; }
 .gallery-controls button { background: #fff; color: #94070a; width: 36px; height: 36px; border: 1px solid #ded8d1; cursor: pointer; }
 .gallery-controls button:hover { background: #f6f1ef; }

@@ -5,7 +5,7 @@
     {% for slide in slides %}
     {% assign stem = slide.image | split: '/' | last | split: '.' | first %}
     <figure class="group-gallery__slide">
-      <img src="{{ slide.image | relative_url }}" srcset="{{ '/images/generated/news/' | append: stem | append: '-960.jpg' | relative_url }} 960w, {{ '/images/generated/news/' | append: stem | append: '-1600.jpg' | relative_url }} 1600w" sizes="(max-width: 900px) 100vw, 430px" alt="{{ slide.alt | escape }}" width="{{ slide.width }}" height="{{ slide.height }}" loading="lazy" decoding="async">
+      <img src="{{ slide.image | relative_url }}" {% unless slide.responsive == false %}srcset="{{ '/images/generated/news/' | append: stem | append: '-960.jpg' | relative_url }} 960w, {{ '/images/generated/news/' | append: stem | append: '-1600.jpg' | relative_url }} 1600w" sizes="(max-width: 900px) 100vw, 430px"{% endunless %} alt="{{ slide.alt | escape }}" width="{{ slide.width }}" height="{{ slide.height }}" loading="lazy" decoding="async">
       <figcaption>{{ slide.caption }}</figcaption>
     </figure>
     {% endfor %}
