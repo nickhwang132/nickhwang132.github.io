@@ -1,0 +1,13 @@
+{% assign entry = include.paper %}
+{% capture title_link %}[{{ entry.title }}]({{ entry.url }}){% endcapture %}
+{% assign citation_parts = entry.citation | split: title_link %}
+<li class="publication-item" data-year="{{ entry.group_year | default: entry.year }}" {% if include.kind == 'paper' %}data-paper-id="{{ entry.id }}"{% else %}data-program-id="{{ entry.id }}"{% endif %}>
+  {% if entry.id == 'program-mba-2026' %}<span id="conference-program"></span>{% endif %}
+  {% if citation_parts.size == 2 %}
+  <h3 class="publication-title">{{ title_link | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+  <div class="publication-authors">{{ citation_parts.first | markdownify }}</div>
+  <div class="publication-details">{{ citation_parts.last | remove_first: '. ' | remove: '; conference program record' | markdownify }}</div>
+  {% else %}
+  {{ entry.citation | markdownify }}
+  {% endif %}
+</li>

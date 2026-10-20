@@ -32,7 +32,7 @@ scripts/site build
 scripts/site check
 ```
 
-The audit's bibliography hash must be updated after an intentional bibliography edit. Never infer a negative role from a missing field, and never remove an excluded paper from the review just to make counts match. Keep the original-site baseline and prior source citations. Preprints remain source-only; MBA is shown separately as an official DAC conference-program record and is not counted as a published paper.
+The audit's bibliography hash must be updated after an intentional bibliography edit. Never infer a negative role from a missing field, and never remove an excluded paper from the review just to make counts match. Keep the original-site baseline and prior source citations. Preprints remain source-only. By explicit user approval, MBA appears in the 2026 list alongside the 100 selected formal papers; its source remains an official DAC conference-program record and it is not added to the formal-publication count. `_data/publication_display.yml` records this display decision, and the search counter reports entries.
 
 ## Content sources
 
@@ -48,7 +48,7 @@ The audit's bibliography hash must be updated after an intentional bibliography 
 | Software | `_pages/software.md` |
 | Layout and styles | `_layouts/`, `_sass/` |
 
-Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Courses, Service and Chips keep their existing URLs pending supplied content. The remaining student photo and research-field gaps are intentionally omitted.
+Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Courses and Chips keep their existing URLs pending supplied content. Service has been removed from navigation and publication; its source remains archived as an unpublished page. The remaining student photo and research-field gaps are intentionally omitted.
 
 Documentation, maintenance scripts, historical theme archives and local evidence are excluded from the published website. Local licensed full texts, raw source materials, machine-specific handoffs and original user files are not release assets. Keep recovery snapshots outside the checkout and restore into a separate directory.
 

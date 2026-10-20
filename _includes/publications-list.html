@@ -1,21 +1,23 @@
 {% assign included_ids = site.data.publication_selection.included_ids %}
-{% capture group_years %}{% for paper in site.data.publications.publications %}{% if included_ids contains paper.id %}{{ paper.group_year | default: paper.year }}|{% endif %}{% endfor %}{% endcapture %}
+{% assign program_ids = site.data.publication_display.yearly_program_ids %}
+{% capture group_years %}{% for paper in site.data.publications.publications %}{% if included_ids contains paper.id %}{{ paper.group_year | default: paper.year }}|{% endif %}{% endfor %}{% for paper in site.data.publications.conference_programs %}{% if program_ids contains paper.id %}{{ paper.year }}|{% endif %}{% endfor %}{% endcapture %}
 {% assign years = group_years | split: '|' | uniq | sort | reverse %}
 <div class="publications-wrap" data-publications>
-  <div class="publications-toolbar" hidden>
-    <label for="publication-search">Search papers by title, author, venue or year</label>
-    <input id="publication-search" class="publications-search" type="search" placeholder="Search papers" aria-label="Search papers">
-    <p class="publications-count" role="status" aria-live="polite"></p>
-  </div>
   <p class="publications-empty" hidden>No publications match your search.</p>
   {% for year in years %}
     <section class="publication-year-group" data-year="{{ year }}">
       <h2>{{ year }}</h2>
       <ol class="publication-list">
+      {% for paper in site.data.publications.conference_programs %}
+        {% assign program_year = paper.year | append: '' %}
+        {% if program_year == year and program_ids contains paper.id %}
+          {% include publication-entry.html paper=paper kind='conference-program' %}
+        {% endif %}
+      {% endfor %}
       {% for paper in site.data.publications.publications %}
         {% assign group_year = paper.group_year | default: paper.year | append: '' %}
         {% if group_year == year and included_ids contains paper.id %}
-        <li class="publication-item" data-year="{{ year }}" data-paper-id="{{ paper.id }}">{{ paper.citation | markdownify }}</li>
+          {% include publication-entry.html paper=paper kind='paper' %}
         {% endif %}
       {% endfor %}
       </ol>
