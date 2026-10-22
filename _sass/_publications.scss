@@ -39,7 +39,7 @@
 .publication-year-group:first-of-type { border-top: 0; }
 .academic-page .publication-year-group h2 { margin: 0; font: normal 24px/1.4 Georgia, serif; color: #94070a; }
 .publication-list { padding-left: 24px; margin: 0; font-size: var(--academic-detail); line-height: 1.65; }
-.publication-list li::marker { color: #827b7b; font-size: 13px; }
+.publication-list li::marker { color: #827b7b; font-size: var(--academic-meta); }
 .publication-list .publication-item { margin: 0 0 22px; padding-left: 4px; overflow-wrap: anywhere; }
 .academic-page .publication-item .publication-title { font-size: var(--academic-item-title); font-weight: 600; line-height: 1.5; margin: 0 0 6px; }
 .publication-title a { color: #303137; text-decoration: none; }
@@ -54,7 +54,7 @@
 .academic-page--publications .academic-page__content > p { color: #55565b; font-size: var(--academic-text); margin: 0 0 16px; }
 .academic-page--publications .academic-page__content > ol { max-width: none; font-size: var(--academic-text); line-height: 1.75; }
 .academic-page--publications .academic-page__content > ol li { margin-bottom: 18px; }
-.academic-page--publications .academic-page__content > ol li::marker { font-size: 13px; color: #827b7b; }
+.academic-page--publications .academic-page__content > ol li::marker { font-size: var(--academic-meta); color: #827b7b; }
 @media (max-width: 850px) {
   .academic-page--publications .academic-page__header { flex-wrap: wrap; gap: 16px; }
   .publications-controls { width: 100%; }
