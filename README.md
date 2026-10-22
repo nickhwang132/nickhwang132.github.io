@@ -49,12 +49,20 @@ The audit's bibliography hash must be updated after an intentional bibliography 
 | Chip photographs | `images/chips/<chip-id>/` |
 | Recent content changes and image hashes | `docs/content-updates-20261020.json` |
 | Chip intake provenance and public-scope confirmation | `docs/chips/intake-20261020.json` |
+| Course introductions, topics and resources | `_data/courses.yml` |
+| Course provenance and withheld-field policy | `docs/courses/content-review-20261022.md` |
 | Software | `_pages/software.md` |
 | Layout and styles | `_layouts/`, `_sass/` |
 
-Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Chips now presents three supplied chip records, with related papers linked to the existing reviewed bibliography. Raw intake Word/EMF documents are archived outside the checkout; only selected website images are public assets. Courses retains its existing URL pending supplied content. Service has been removed from navigation and publication; its source remains archived as an unpublished page. The remaining student photo and research-field gaps are intentionally omitted.
+Invited talks, two book chapters, 32 granted-patent records and four US application publications retain their separate categories. This is not an exhaustive patent portfolio or a current legal-status claim. Chips now presents three supplied chip records, with related papers linked to the existing reviewed bibliography. Raw intake Word/EMF documents are archived outside the checkout; only selected website images are public assets. Courses presents three supplied courses, with English introductions, official Chinese titles, topics and expandable learning goals. Course numbers, credits and semester details remain in the intake review and are not rendered pending confirmation. Source Word files, teaching evaluations and grading records are kept outside the published site. Service has been removed from navigation and publication; its source remains archived as an unpublished page. The remaining student photo and research-field gaps are intentionally omitted.
 
 Documentation, maintenance scripts, historical theme archives and local evidence are excluded from the published website. Local licensed full texts, raw source materials, machine-specific handoffs and original user files are not release assets. Keep recovery snapshots outside the checkout and restore into a separate directory.
+
+## Typography and visual checks
+
+The shared scale lives in `_sass/_academic.scss`: 17px body, 16px citation details, 15px metadata and 19px item titles. Georgia headings and the system sans-serif body keep the approved academic style. Mobile layouts change columns and wrapping before reducing type; the fixed seal stays at 1% opacity.
+
+Follow [AGENTS.md](AGENTS.md) for the visitor-facing content and typography contract. The reusable [academic website maintenance skill](docs/skills/academic-website-maintenance/SKILL.md) includes a read-only browser probe. Check all six primary sections at 320, 390, 768 and 1280px, review desktop/mobile screenshots, and exercise search, Index, native details and gallery controls. Content preservation, successful builds and browser checks are separate evidence; retain each in the review and HANDOFF. Internal documents and skills remain excluded from the published site.
 
 ## Attribution
 

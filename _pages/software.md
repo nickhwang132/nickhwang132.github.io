@@ -1,5 +1,7 @@
 ---
 layout: academic
+compact_header: true
+page_kind: software
 permalink: /software/
 title: "Software Release"
 intro: "Tools for non-volatile memory and compute-in-memory research."
@@ -25,7 +27,7 @@ redirect_from:
 <div class="software-details">
   <section><h2>Getting started</h2><p>Follow the repository README for build commands, configuration files and example runs. It covers the adapter, mapper and hardware optimizer.</p><p><a href="https://github.com/booniebears/CoMN#get-started">Open the setup guide ↗</a></p>
   <details class="resource-note"><summary>Web interface</summary><p>The repository links to a <a href="http://101.42.97.22:8081/index.html">web interface</a> requiring registration. The developers recommend local installation; download the source code and follow the setup guide.</p></details></section>
-  <section><h2>Contact</h2><address><a href="mailto:lixiahan@pku.edu.cn">Lixia Han · lixiahan@pku.edu.cn</a><a href="mailto:phwang@pku.edu.cn">Peng Huang · phwang@pku.edu.cn</a><a href="mailto:3197571813@mail.nwpu.edu.cn">Siyuan Chen · 3197571813@mail.nwpu.edu.cn</a></address></section>
+  <section><h2>Contact</h2><address><a href="mailto:lixiahan@pku.edu.cn">Lixia Han · lixiahan@pku.edu.cn</a><a href="mailto:phwang@pku.edu.cn">Peng Huang · phwang@pku.edu.cn</a><a href="mailto:chensy@stu.pku.edu.cn">Siyuan Chen · chensy@stu.pku.edu.cn</a></address></section>
 </div>
 
 ## Reference

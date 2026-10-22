@@ -290,6 +290,30 @@ if File.file?(File.join(SITE, 'people/index.html'))
   check.call(people.css('#undergraduate-students [data-member]').map { |node| node['data-member'] }.sort == ['Lingxi Jin', 'Zhuoting Han', 'Siyuan Liu', 'Ziqi Wang'].sort, 'Authorized undergraduate pinyin names differ')
 
 end
+if File.file?(File.join(SITE, 'courses/index.html'))
+  courses_page = Nokogiri::HTML(File.read(File.join(SITE, 'courses/index.html')))
+  course_source = YAML.load_file(File.join(ROOT, '_data/courses.yml')).fetch('courses')
+  course_main = courses_page.at_css('main')
+  check.call(course_source.map { |course| course['id'] } == ['introduction-to-microelectronics', 'ic-devices-i', 'ic-devices-ii'], 'Course scope or sequence differs from the three supplied courses')
+  check.call(courses_page.css('[data-course]').size == 3, 'Course missing or duplicated')
+  check.call(!course_main.text.match?(/04831510|04835760|2026|2027|credits?|semester|学分|学期|学时/i), 'Unapproved course metadata must not appear in the preview')
+  check.call(!course_main.text.match?(/待补|待确认|填写|核准|交接|null|60%|20%|recommendation score|evaluation record/i), 'Internal handoff or grading material leaked onto Courses')
+  check.call(courses_page.css('main img').empty?, 'Course intake did not include approved course photographs')
+  course_source.each do |course|
+    node = courses_page.at_css(%Q([data-course="#{course['id']}"]))
+    check.call(node && node.at_css('h2')&.text == course['name'], "Course title missing: #{course['id']}")
+    next unless node
+    check.call(node.at_css('[lang="zh-Hans"]')&.text == course['name_zh'], "Formal Chinese course name missing: #{course['id']}")
+    check.call(node.at_css('.course-intro')&.text == course['description'], "Course introduction missing: #{course['id']}")
+    check.call(node.css('.course-topics li').size == course['modules'].size, "Course topics incomplete: #{course['id']}")
+    check.call(node.css('.course-goals li').map(&:text) == course['goals'], "Course learning goals incomplete: #{course['id']}")
+    check.call(node.at_css('details > summary') && node.css('script').empty?, "Course details must work without JavaScript: #{course['id']}")
+    check.call(courses_page.at_css(%Q(.course-nav a[href="##{course['id']}"])), "Course navigation anchor missing: #{course['id']}")
+    course['links'].each do |link|
+      check.call(node.css('.course-links a').any? { |a| a['href'] == link['url'] && a.text.include?(link['label']) }, "Course resource link missing: #{course['id']}")
+    end
+  end
+end
 if File.file?(File.join(SITE, 'chips/index.html'))
   chips_doc = Nokogiri::HTML(File.read(File.join(SITE, 'chips/index.html')))
   chips = YAML.load_file(File.join(ROOT, '_data/chips.yml')).fetch('chips')

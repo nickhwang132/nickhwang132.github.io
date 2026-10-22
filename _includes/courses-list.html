@@ -1,0 +1,38 @@
+<nav class="section-nav course-nav" aria-label="Course sections">
+  {% for course in site.data.courses.courses %}<a href="#{{ course.id }}">{{ course.nav_title | escape }}</a>{% endfor %}
+</nav>
+<div class="course-list">
+  {% for course in site.data.courses.courses %}
+  <article class="course-entry" id="{{ course.id }}" data-course="{{ course.id }}" aria-labelledby="{{ course.id }}-title">
+    <header class="course-heading">
+      <p class="course-category">{{ course.category | escape }}</p>
+      <h2 id="{{ course.id }}-title">{{ course.name | escape }}</h2>
+      <p class="course-name-zh" lang="zh-Hans">{{ course.name_zh | escape }}</p>
+    </header>
+    <div class="course-overview">
+      <div class="course-description">
+        <p class="course-intro">{{ course.description | escape }}</p>
+        {% if course.instructors.size > 0 %}<p class="course-team"><strong>{% if course.instructors.size == 1 %}Instructor{% else %}Instructors{% endif %}</strong> {{ course.instructors | join: ', ' | escape }}</p>{% endif %}
+        {% if course.coordination %}<p class="course-team"><strong>{{ course.coordination.label | escape }}</strong> {{ course.coordination.names | join: ', ' | escape }}</p>{% endif %}
+        <p class="course-teaching"><strong>Teaching</strong> {{ course.teaching | escape }}</p>
+        <ul class="course-links" aria-label="{{ course.nav_title | escape }} resources">
+          {% for link in course.links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }} <span aria-hidden="true">↗</span></a>{% if link.note %}<span class="course-link-note">{{ link.note | escape }}</span>{% endif %}</li>{% endfor %}
+        </ul>
+      </div>
+      <section class="course-topics" aria-labelledby="{{ course.id }}-topics">
+        <h3 id="{{ course.id }}-topics">Topics</h3>
+        <ul>{% for module in course.modules %}
+          <li><h4>{{ module.title | escape }}</h4><p>{{ module.description | escape }}</p></li>{% endfor %}
+        </ul>
+      </section>
+    </div>
+    <details class="course-details">
+      <summary>Learning goals{% if course.prerequisites %} &amp; preparation{% endif %}</summary>
+      <div class="course-details__content">
+        <ul class="course-goals">{% for goal in course.goals %}<li>{{ goal | escape }}</li>{% endfor %}</ul>
+        {% if course.prerequisites %}<p class="course-prerequisites"><strong>Prerequisites</strong> {{ course.prerequisites | escape }}</p>{% endif %}
+      </div>
+    </details>
+  </article>
+  {% endfor %}
+</div>

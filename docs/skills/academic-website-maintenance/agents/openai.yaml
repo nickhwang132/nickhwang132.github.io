@@ -1,0 +1,6 @@
+interface:
+  display_name: "学术网站维护"
+  short_description: "Maintain academic sites with readable type and preserved content"
+  default_prompt: "Use $academic-website-maintenance to improve this academic website while preserving its content and release scope."
+policy:
+  allow_implicit_invocation: true

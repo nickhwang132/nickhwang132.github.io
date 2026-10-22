@@ -1,0 +1,149 @@
+{
+  "courses": [
+    {
+      "id": "introduction-to-microelectronics",
+      "nav_title": "Microelectronics",
+      "name": "Introduction to Microelectronics",
+      "name_zh": "微电子学概论",
+      "category": "Foundations · General education",
+      "description": "An introduction to the history, foundations and future of microelectronics. The course connects semiconductor physics and device operation with integrated circuit manufacturing and design. Students develop an overview of the field, from transistors and fabrication processes to computer-aided design, optoelectronics and microelectromechanical systems.",
+      "instructors": [
+        "Xing Zhang",
+        "Peng Huang"
+      ],
+      "teaching": "Lectures, complemented by discussions and visits.",
+      "goals": [
+        "Explain what microelectronics studies, how integrated circuits have evolved, and how their main types differ.",
+        "Connect the operating principles of semiconductor devices with fabrication processes and circuit design.",
+        "Describe basic IC design and CAD workflows, and recognise applications of optoelectronic devices and MEMS."
+      ],
+      "prerequisites": "None.",
+      "modules": [
+        {
+          "title": "Microelectronics and technology trends",
+          "description": "Integrated circuit concepts, milestones, scaling and technology roadmaps."
+        },
+        {
+          "title": "Semiconductor and device foundations",
+          "description": "PN junctions, bipolar and MOS transistors, and integrated circuit structures."
+        },
+        {
+          "title": "Integrated circuit fabrication",
+          "description": "Lithography, etching, doping, deposition, interconnects, isolation and packaging."
+        },
+        {
+          "title": "Circuit design and CAD",
+          "description": "Design methods, layout rules, hardware description and verification."
+        },
+        {
+          "title": "Optoelectronics and MEMS",
+          "description": "Light-emitting and detecting devices, image sensors and microsystems."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official course search",
+          "url": "https://dean.pku.edu.cn/service/web/courseSearch.php"
+        }
+      ]
+    },
+    {
+      "id": "ic-devices-i",
+      "nav_title": "Devices I",
+      "name": "Principles and Practice of Integrated Circuit Devices (Experimental Class) (I)",
+      "name_zh": "集成电路器件原理与实践（实验班）（I）",
+      "category": "Device physics · Experimental Class",
+      "description": "The first part of this course sequence connects semiconductor physics with the behaviour of integrated circuit devices. Starting with energy bands, carriers and doping, it covers junctions, BJTs, MOS capacitors and MOSFETs, then examines scaling and advanced transistor structures. Physical models and three-dimensional structure design help students relate materials, geometry and process choices to electrical characteristics.",
+      "instructors": [
+        "Peng Huang"
+      ],
+      "teaching": "Pre-class video study, in-depth classroom discussion and three-dimensional device structure design.",
+      "goals": [
+        "Use energy bands, Fermi levels, carrier statistics, drift and diffusion to explain device behaviour.",
+        "Analyse the operating principles and basic models of junctions, BJTs, contacts, MOS capacitors and MOSFETs.",
+        "Explain how structure, materials and process parameters shape device characteristics, including FinFET, nanowire and GAA designs."
+      ],
+      "prerequisites": "Basic electromagnetism and thermodynamics; elementary circuit analysis and impedance; and an understanding of atomic structure.",
+      "modules": [
+        {
+          "title": "Semiconductor physics",
+          "description": "Energy bands, Fermi levels, carrier concentrations, doping and transport."
+        },
+        {
+          "title": "PN junctions and diodes",
+          "description": "Bias, I–V characteristics, non-ideal effects, models and optoelectronic devices."
+        },
+        {
+          "title": "Bipolar junction transistors",
+          "description": "Operating modes, amplification mechanisms and equivalent circuit models."
+        },
+        {
+          "title": "MOS capacitors and contacts",
+          "description": "Metal–semiconductor contacts, interface states and C–V characteristics."
+        },
+        {
+          "title": "MOSFETs and advanced transistors",
+          "description": "Operating regions, short-channel effects, scaling, FinFETs, nanowires and GAA structures."
+        }
+      ],
+      "links": [
+        {
+          "label": "PKU teaching platform",
+          "url": "https://course.pku.edu.cn/",
+          "note": "PKU sign-in required"
+        },
+        {
+          "label": "About the course sequence",
+          "url": "https://eecs.pku.edu.cn/info/1040/12363.htm"
+        }
+      ]
+    },
+    {
+      "id": "ic-devices-ii",
+      "nav_title": "Devices II",
+      "name": "Principles and Practice of Integrated Circuit Devices (Experimental Class) (II)",
+      "name_zh": "集成电路器件原理与实践（实验班）（II）",
+      "category": "Device design · Experimental Class",
+      "description": "Building on device physics, this course develops practical skills in semiconductor device design and analysis. Students use TCAD to construct and simulate devices, extract compact-model parameters, and explore design–technology co-optimisation (DTCO). Independent experiments, research reports and classroom discussion connect physical models, process choices and circuit performance.",
+      "instructors": [],
+      "coordination": {
+        "label": "Series coordinators",
+        "names": [
+          "Runsheng Wang",
+          "Peng Huang"
+        ]
+      },
+      "teaching": "Independent TCAD experiments, classroom discussion of results and research reports.",
+      "goals": [
+        "Construct device structures in TCAD, select physical models, calibrate simulations and interpret the results.",
+        "Extract compact-model and parasitic parameters, and relate device models to cell-level circuit simulation.",
+        "Explore FinFET and GAA device–circuit co-optimisation and standard-cell design."
+      ],
+      "modules": [
+        {
+          "title": "TCAD device design and simulation",
+          "description": "Physical models, calibration, PN junctions, planar MOSFETs and three-dimensional FinFETs."
+        },
+        {
+          "title": "Compact modelling and parameter extraction",
+          "description": "I–V and C–V parameters, interconnect parasitics, binning and pre- and post-layout simulation."
+        },
+        {
+          "title": "DTCO design practice",
+          "description": "FinFET and GAA device–circuit co-optimisation and advanced-node standard-cell libraries."
+        }
+      ],
+      "links": [
+        {
+          "label": "PKU teaching platform",
+          "url": "https://course.pku.edu.cn/",
+          "note": "PKU sign-in required"
+        },
+        {
+          "label": "About the course sequence",
+          "url": "https://eecs.pku.edu.cn/info/1040/12363.htm"
+        }
+      ]
+    }
+  ]
+}
